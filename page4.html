@@ -1,712 +1,1023 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>blog</title>
-<style type="text/css">
-<!--
-.blogheader {
-	text-align: justify;
-	background-color: #C60;
-	font-size: 18px;
-}
-.blogheader td #FlashID {
-	background-color: #C60;
-	position: relative;
-	visibility: visible;
-	width: 100%;
-	right: auto;
-}
-.blogsubheader {
-	font-style: normal;
-	line-height: normal;
-	font-weight: bolder;
-	font-variant: normal;
-	text-decoration: none;
-	text-align: justify;
-	border-color: #FFF;
-	color: #000;
-	font-size: x-large;
-	background-color: #FF9;
-}
-.bodyblog {
-	font-weight: normal;
-	font-size: 36px;
-	border-top-color: #000;
-	color: #FFF;
-}
-.blogphoto {
-	background-color: #FFF;
-	border-top-width: medium;
-	border-right-width: medium;
-	border-bottom-width: medium;
-	border-left-width: medium;
-	border-top-style: solid;
-	border-right-style: solid;
-	border-bottom-style: solid;
-	border-left-style: solid;
-}
-.blogword {
-	font-size: large;
-	font-style: normal;
-	line-height: normal;
-	font-weight: bold;
-	font-variant: normal;
-	text-transform: none;
-	font-family: "Times New Roman", Times, serif;
-	color: #006;
-	background-color: #FF9;
-	margin-right: 500px;
-	padding-right: 50px;
-	padding-left: 50px;
-}
-.blogdate {
-	color: #F00;
-	text-decoration: underline;
-	background-color: #FFF;
-	font-size: large;
-	font-weight: bolder;
-	text-align: left;
-}
-.photoindex {
-	font-size: small;
-	color: #F00;
-	text-decoration: underline;
-}
-.photoindex {
-	font-size: small;
-	color: #F00;
-	text-decoration: underline;
-}
-.bodyblog {
-	border-bottom-width: medium;
-	border-bottom-style: solid;
-	border-right-width: thick;
-	border-right-style: solid;
-	background-color: #FF9;
-	border-left-width: thick;
-	border-left-style: solid;
-	color: #FF9;
-	border-bottom-color: #000;
-	border-color: #000;
-	outline-color: #333;
-}
-.bodyblog table tr .bodyblog {
-	margin: 1px;
-	padding: 1px;
-}
-.bodyblog table tr {
-}
-.bodyblog table tr {
-}
-.bodyblog table tr {
-}
-.yout {
-}
-.bodyblog table .blogphoto .bodyblog {
-}
-.bodyblog table tr {
-	border-bottom-width: medium;
-	border-bottom-style: solid;
-	border-bottom-color: #630;
-	margin-top: 1px;
-	margin-right: 1px;
-	margin-bottom: 1px;
-	margin-left: 1px;
-	background-color: #D6D6D6;
-}
-#apDiv1 {
-	position:absolute;
-	width:386px;
-	height:210px;
-	z-index:1;
-	left: 180px;
-	top: 8888px;
-}
-.photoindex a {
-	font-family: "Times New Roman", Times, serif;
-}
-body {
-	background-color: #FF9;
-}
-.bodyblog table tr .bodyblog {
-}
-.bodyblog table tr .bodyblog {
-}
-.bodyblog table tr .bodyblog {
-}
-.bodyblog table tr .bodyblog {
-	background-color: #FF9;
-}
-.bodyblog table tr .bodyblog {
-	background-color: #FF9;
-}
-.bodyblog table tr .bodyblog object {
-}
-.bodyblog table tr .bodyblog {
-	background-color: #FF9;
-	margin-right: 500px;
-}
-.bodyblog table tr {
-}
--->
-</style>
-<script src="SpryAssets/SpryEffects.js" type="text/javascript"></script>
-<script type="text/javascript">
-<!--
-function MM_effectAppearFade(targetElement, duration, from, to, toggle)
-{
-	Spry.Effect.DoFade(targetElement, {duration: duration, from: from, to: to, toggle: toggle});
-}
-//-->
-</script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>blog</title>
+  <style type="text/css">
+    <!--
+    .blogheader {
+      text-align: justify;
+      background-color: #C60;
+      font-size: 18px;
+    }
+
+    .blogheader td #FlashID {
+      background-color: #C60;
+      position: relative;
+      visibility: visible;
+      width: 100%;
+      right: auto;
+    }
+
+    .blogsubheader {
+      font-style: normal;
+      line-height: normal;
+      font-weight: bolder;
+      font-variant: normal;
+      text-decoration: none;
+      text-align: justify;
+      border-color: #FFF;
+      color: #000;
+      font-size: x-large;
+      background-color: #FF9;
+    }
+
+    .bodyblog {
+      font-weight: normal;
+      font-size: 36px;
+      border-top-color: #000;
+      color: #FFF;
+    }
+
+    .blogphoto {
+      background-color: #FFF;
+      border-top-width: medium;
+      border-right-width: medium;
+      border-bottom-width: medium;
+      border-left-width: medium;
+      border-top-style: solid;
+      border-right-style: solid;
+      border-bottom-style: solid;
+      border-left-style: solid;
+    }
+
+    .blogword {
+      font-size: large;
+      font-style: normal;
+      line-height: normal;
+      font-weight: bold;
+      font-variant: normal;
+      text-transform: none;
+      font-family: "Times New Roman", Times, serif;
+      color: #006;
+      background-color: #FF9;
+      margin-right: 500px;
+      padding-right: 50px;
+      padding-left: 50px;
+    }
+
+    .blogdate {
+      color: #F00;
+      text-decoration: underline;
+      background-color: #FFF;
+      font-size: large;
+      font-weight: bolder;
+      text-align: left;
+    }
+
+    .photoindex {
+      font-size: small;
+      color: #F00;
+      text-decoration: underline;
+    }
+
+    .photoindex {
+      font-size: small;
+      color: #F00;
+      text-decoration: underline;
+    }
+
+    .bodyblog {
+      border-bottom-width: medium;
+      border-bottom-style: solid;
+      border-right-width: thick;
+      border-right-style: solid;
+      background-color: #FF9;
+      border-left-width: thick;
+      border-left-style: solid;
+      color: #FF9;
+      border-bottom-color: #000;
+      border-color: #000;
+      outline-color: #333;
+    }
+
+    .bodyblog table tr .bodyblog {
+      margin: 1px;
+      padding: 1px;
+    }
+
+    .bodyblog table tr {}
+
+    .bodyblog table tr {}
+
+    .bodyblog table tr {}
+
+    .yout {}
+
+    .bodyblog table .blogphoto .bodyblog {}
+
+    .bodyblog table tr {
+      border-bottom-width: medium;
+      border-bottom-style: solid;
+      border-bottom-color: #630;
+      margin-top: 1px;
+      margin-right: 1px;
+      margin-bottom: 1px;
+      margin-left: 1px;
+      background-color: #D6D6D6;
+    }
+
+    #apDiv1 {
+      position: absolute;
+      width: 386px;
+      height: 210px;
+      z-index: 1;
+      left: 180px;
+      top: 8888px;
+    }
+
+    .photoindex a {
+      font-family: "Times New Roman", Times, serif;
+    }
+
+    body {
+      background-color: #FF9;
+    }
+
+    .bodyblog table tr .bodyblog {}
+
+    .bodyblog table tr .bodyblog {}
+
+    .bodyblog table tr .bodyblog {}
+
+    .bodyblog table tr .bodyblog {
+      background-color: #FF9;
+    }
+
+    .bodyblog table tr .bodyblog {
+      background-color: #FF9;
+    }
+
+    .bodyblog table tr .bodyblog object {}
+
+    .bodyblog table tr .bodyblog {
+      background-color: #FF9;
+      margin-right: 500px;
+    }
+
+    .bodyblog table tr {}
+    -->
+  </style>
+  <script src="SpryAssets/SpryEffects.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    <!--
+    function MM_effectAppearFade(targetElement, duration, from, to, toggle)
+    {
+      Spry.Effect.DoFade(targetElement, {duration: duration, from: from, to: to, toggle: toggle});
+    }
+    //-->
+  </script>
 </head>
 
 <body bgcolor="#FFFF99" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" class="bodyblog">
-<table width="100%" height="23218" border="0" cellpadding="0" cellspacing="0">
-  <tr bgcolor="#FFFFCC">
-    <td height="2159" valign="top" bgcolor="#000000" class="bodyblog" style="padding-left: 50px; padding-right: 50px; border-top-color: #000; border-left-color: #000; border-right-color: #000; border-top-style: solid; border-top-width: medium; background-color: #FF9; font-size: 24px; color: #000;"><p><span class="blogdate">08.04.2012 </span>六柱石群、吊鐘洲、橋咀洲之旅</p>
-<p>&nbsp;</p>
-      <p><img src="image/IMG_5635.JPG" width="485" height="249" /></p>
-    <p><img src="image/IMG_5873.JPG" width="523" height="343" /><img src="image/IMG_5906.JPG" width="523" height="343" /></p>
-    <p><img src="image/IMG_5918.JPG" width="523" height="343" /><img src="image/IMG_5923.JPG" width="523" height="343" /></p>
-    <p><img src="image/IMG_5925.JPG" width="523" height="343" /><img src="image/IMG_5960.JPG" width="523" height="343" /></p>
-    <p><img src="image/IMG_5942.JPG" width="523" height="343" /><img src="image/IMG_5710.JPG" width="419" height="274" /></p>
-    <p><img src="image/IMG_5875.JPG" width="523" height="343" /><img src="image/IMG_5877.JPG" width="523" height="343" /></p>
-    <p><img src="image/IMG_5730.JPG" width="313" height="411" /><img src="image/IMG_5748.JPG" width="523" height="343" /></p>
-    <p><img src="image/IMG_5773.JPG" width="523" height="343" /></p>
-    <p>&nbsp;</p></td>
-  </tr>
-  <tr bgcolor="#FFFFCC">
-    <td height="2637" valign="top" bgcolor="#000000" class="bodyblog" style="padding-left: 50px; padding-right: 50px; border-top-color: #000; border-left-color: #000; border-right-color: #000; border-top-style: solid; border-top-width: medium; background-color: #FF9; font-size: 24px; color: #000;"><p><span class="blogdate">18.03.2012 </span>維園花展</p>
-    <p>一早到了維園......</p>
-    <p>&nbsp;</p>
-    <p><img src="images/IMG_5456.jpg" width="249" height="277" /></p>
-    <p><img src="images/IMG_5454.jpg" width="431" height="247" /><img src="images/IMG_5552.jpg" width="445" height="264" /></p>
-    <p><img src="images/IMG_5472.jpg" width="434" height="322" /><img src="images/IMG_5477.jpg" width="435" height="326" /></p>
-    <p><img src="images/IMG_5490.jpg" width="424" height="343" /><img src="images/IMG_5495.jpg" width="434" height="237" /></p>
-    <p><img src="images/IMG_5530.jpg" width="421" height="337" /><img src="images/IMG_5532.jpg" width="402" height="343" /></p>
-    <p><img src="images/IMG_5544.jpg" width="418" height="246" /><img src="images/IMG_5579.jpg" width="372" height="268" /></p>
-    <p><img src="images/IMG_5570.jpg" width="335" height="213" /><img src="images/IMG_5577.jpg" width="350" height="194" /></p>
-    <p><img src="images/IMG_5568.jpg" width="523" height="232" /><img src="images/IMG_5507.jpg" width="509" height="322" /></p>
-<p>&nbsp;</p>
-    <p>&nbsp;</p></td>
-  </tr>
-  <tr bgcolor="#FFFFCC">
-    <td height="1289" valign="top" bgcolor="#000000" class="bodyblog" style="padding-left: 50px; padding-right: 50px; border-top-color: #000; border-left-color: #000; border-right-color: #000; border-top-style: solid; border-top-width: medium; background-color: #FF9; font-size: 24px; color: #000;"><p><span class="blogdate">05.11.2011 </span>到科學園</p>
-    <p>今日同 Jeffrey 到科學園做義工, 由2:00-6:30pm, 負責解釋和控制機械人, 他話很忙, </p>
-    <p>休息都冇時間, 話做嘢很辛苦!! 可能見佢哋小朋友玩咁大駕車, 吸引了ATV拍攝,</p>
-    <p>上了6點新聞報告!!</p>
-    <p>
-      <object width="420" height="315">
-        <param name="movie" value="https://www.youtube-nocookie.com/v/uwUKliTJpyg?version=3&amp;hl=en_US&amp;rel=0" />
-        <param name="allowFullScreen" value="true" />
-        <param name="allowscriptaccess" value="always" />
-        <embed src="https://www.youtube-nocookie.com/v/uwUKliTJpyg?version=3&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" width="420" height="315" allowscriptaccess="always" allowfullscreen="true"></embed>
-      </object>
-      <object width="420" height="315">
-        <param name="movie" value="http://www.youtube-nocookie.com/v/79KuKe7WLTs?version=3&amp;hl=en_US&amp;rel=0" />
-        <param name="allowFullScreen" value="true" />
-        <param name="allowscriptaccess" value="always" />
-        <embed src="http://www.youtube-nocookie.com/v/79KuKe7WLTs?version=3&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" width="420" height="315" allowscriptaccess="always" allowfullscreen="true"></embed>
-      </object>
-    </p>
-    <p>&nbsp;</p>
-    <p><img src="robIMG_5004.jpg" width="538" height="380" /></p>
-    <p><img src="robIMG_5018.jpg" width="536" height="293" /></p>
-    <p><img src="robIMG_4981.jpg" width="539" height="412" /></p>
-    <p><img src="robIMG_5025.jpg" width="543" height="320" />
-      <object width="420" height="315">
-        <param name="movie" value="https://www.youtube-nocookie.com/v/T1NaQXAsCWQ?version=3&amp;hl=en_US&amp;rel=0" />
-        <param name="allowFullScreen" value="true" />
-        <param name="allowscriptaccess" value="always" />
-        <embed src="https://www.youtube-nocookie.com/v/T1NaQXAsCWQ?version=3&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" width="420" height="315" allowscriptaccess="always" allowfullscreen="true"></embed>
-      </object>
-    </p>
-    <p><img src="robIMG_5017.jpg" width="541" height="293" /></p>
-    <p>&nbsp;</p></td>
-  </tr>
-  <tr bgcolor="#FFFFCC">
-    <td height="1289" valign="top" bgcolor="#000000" class="bodyblog" style="padding-left: 50px; padding-right: 50px; border-top-color: #000; border-left-color: #000; border-right-color: #000; border-top-style: solid; border-top-width: medium; background-color: #FF9; font-size: 24px; color: #000;"><p><span class="blogdate">30.09.2011 </span>遊歷史博物館</p>
-    <p>&nbsp;</p>
-    <p><img src="IMG_4899h.jpg" width="408" height="291" /></p>
-    <p><img src="IMG_4857h.jpg" width="406" height="326" /></p>
-    <p><img src="IMG_4826h.jpg" width="411" height="377" /></p>
-    <p><img src="IMG_4860h.jpg" width="527" height="305" /></p>
-    <p><img src="IMG_4885h.jpg" width="532" height="412" /></p>
-    <p>&nbsp;</p></td>
-  </tr>
-  <tr bgcolor="#FFFFCC">
-    <td height="1289" valign="top" bgcolor="#000000" class="bodyblog" style="padding-left: 50px; padding-right: 50px; border-top-color: #000; border-left-color: #000; border-right-color: #000; border-top-style: solid; border-top-width: medium; background-color: #FF9; font-size: 24px; color: #000;"><p><span class="blogdate">20.04.2011 </span>遊辛亥革命展覽</p>
-    <p><img src="IMG_3333.jpg" width="544" height="322" /></p>
-    <p><img src="IMG_3328.jpg" width="452" height="284" /></p>
-    <p><img src="IMG_3340.jpg" width="452" height="284" /></p>
-    <p><img src="IMG_3349.jpg" width="452" height="310" /></p></td>
-  </tr>
-  <tr bgcolor="#FFFFCC">
-    <td height="381" valign="top" bgcolor="#000000" class="bodyblog" style="padding-left: 50px; padding-right: 50px; border-top-color: #000; border-left-color: #000; border-right-color: #000; border-top-style: solid; border-top-width: medium; background-color: #FF9; font-size: 24px; color: #000;">
-      <p><span class="blogdate">25.05.2011 </span>Exhibition at School Hall</p>
-      <p>
-<object width="425" height="349">
-          <param name="movie" value="http://www.youtube-nocookie.com/v/5FBKTdtyWFk?version=3&amp;hl=en_US&amp;rel=0" />
-          <param name="allowFullScreen" value="true" />
-          <param name="allowscriptaccess" value="always" />
-          <embed src="http://www.youtube-nocookie.com/v/5FBKTdtyWFk?version=3&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" width="425" height="349" allowscriptaccess="always" allowfullscreen="true"></embed>
-        </object>
-      <object width="560" height="349">
-        <param name="movie" value="http://www.youtube-nocookie.com/v/IjD5qYKy4qM?version=3&amp;hl=en_US&amp;rel=0" />
-        <param name="allowFullScreen" value="true" />
-        <param name="allowscriptaccess" value="always" />
-        <embed src="http://www.youtube-nocookie.com/v/IjD5qYKy4qM?version=3&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" width="560" height="349" allowscriptaccess="always" allowfullscreen="true"></embed>
-      </object>
-      </p>
-    <p>&nbsp; </p></td>
-  </tr>
-  <tr bgcolor="#FFFFCC">
-    <td height="657" valign="top" bgcolor="#FFFF99" class="bodyblog" style="padding-left: 50px; padding-right: 50px; border-top-color: #000; border-left-color: #000; border-right-color: #000; border-top-style: solid; border-top-width: medium; background-color: #FF9; font-size: 24px;"><p><span class="blogdate">06.12.2010</span><span class="blogsubheader">Camping</span></p>
-      <p><img src="image/camp1.jpg" width="222" height="203" /><span class="blogword">今次的目的地係 Pui O Beach, Lantau Island 's TreasureIsland, 我一早就問亞姐借sleeping bag and sleep mat, <img src="mat.jpg" width="111" height="125" /> 今次要訓地下, Jeffrey話這次去Camp很辛苦, 沖涼要一齊沖, 夜晚又訓得唔好, 但都很好玩, 都沒有唔見嘢呢!</span></p>
-      <p>&nbsp;</p>
-    <p><img src="image/campp2.jpg" width="294" height="258" /><img src="image/campp4.jpg" width="294" height="258" />
-      <object width="294" height="258" align="top">
-        <param name="movie" value="http://www.youtube-nocookie.com/v/U6qsNO5FJY4?fs=1&amp;hl=en_US&amp;rel=0" />
-        <param name="allowFullScreen" value="true" />
-        <param name="allowscriptaccess" value="always" />
-        <embed src="http://www.youtube-nocookie.com/v/U6qsNO5FJY4?fs=1&amp;hl=en_US&amp;rel=0" width="294" height="258" align="top" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true"></embed>
-      </object>
-    </p>
-    <p>&nbsp;</p></td>
-  </tr>
-  <tr bgcolor="#FFFFCC">
-    <td height="377" valign="top" bgcolor="#FFFFFF" class="bodyblog" style="padding-left: 100px; padding-right: 100px; border-left-color: #000; border-right-color: #000; background-color: #FF9; font-size: 24px;"><p><span class="blogdate">16.11.2010</span><span class="blogsubheader">遊嘉道理農場</span></p>
-    <h1><span class="blogword">嘉道理農場的名我就聽得耐, 但從來未去過, 裡面原來好大, 路牌不很清楚, 我和七位小朋友一起沿著路線圖參觀, 結果都能平安準時完成, 看到貓頭鷹、松鼠、野豬和大肥豬,我們運動了一天!</span></h1>
-    <p><img src="IMG_2539.JPG" width="187" height="180" /><img src="IMG_2544.JPG" width="187" height="180" /><img src="IMG_2529.JPG" width="150" height="196" /><img src="IMG_2505.JPG" width="150" height="196" /><img src="DSCN0825.JPG" width="150" height="196" /></p>
-    <p><img src="IMG_2537.JPG" width="400" height="261" /><img src="IMG_2508.JPG" width="400" height="261" /></p>
-    <p>&nbsp;</p></td>
-  </tr>
-  <tr bgcolor="#FFFFCC">
-    <td height="386" valign="top" bgcolor="#FFFFFF" class="bodyblog" style="padding-left: 50px; padding-right: 50px; border-left-color: #000; border-right-color: #000; background-color: #FF9; font-size: 24px;"><p><span class="blogdate">15.11.2010</span><span class="blogsubheader">學吹單黃管</span></p>
-    <h1><span class="blogword">聽真D啦!</span></h1>
-    <p>
-      <object width="299" height="255" align="middle">
-        <param name="movie" value="http://www.youtube-nocookie.com/v/F5MTeWpjAg0?fs=1&amp;hl=en_US&amp;rel=0" />
-        <param name="allowFullScreen" value="true" />
-        <param name="allowscriptaccess" value="always" />
-        <embed src="http://www.youtube-nocookie.com/v/F5MTeWpjAg0?fs=1&amp;hl=en_US&amp;rel=0" width="299" height="255" align="middle" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" movie="http://www.youtube-nocookie.com/v/F5MTeWpjAg0?fs=1&amp;hl=en_US&amp;rel=0"></embed>
-      </object>
-    </p></td>
-  </tr>
-  <tr bgcolor="#FFFFCC">
-    <td height="392" valign="top" bgcolor="#FFFFFF" class="bodyblog" style="border-left-color: #000; border-right-color: #000; background-color: #FF9; font-size: 24px;"><p><span class="blogdate">14.11.2010</span><span class="blogsubheader">機械人學堂</span></p>
-    <h1><span class="blogword">每星期都教一樣電子工具和拍照!</span></h1>
-    <p><img src="RIHK_Y11R01D_01_T01[1].jpg" width="200" height="200" border="1" /><img src="26092010_RIHK_Y11R01D_T06_02[1].jpg" width="200" height="200" border="1" /><img src="19092010_RIHK_Y11R01D_T06_04[1].jpg" width="200" height="200" border="1" /><img src="24102010_RIHK_Y11R01D_02_T06[1].jpg" width="200" height="200" border="1" /><img src="12092010_RIHK_Y11R01D_T31_02[1].jpg" width="200" height="200" border="1" /><img src="10102010_RTLC_Y11R01D_01_T01[1].JPG" width="200" height="200" border="1" /><img src="23122010_RIHK_Y10CWS2A_02_T31[1].jpg" width="320" height="240" /></p></td>
-  </tr>
-  <tr bgcolor="#FFFFCC">
-    <td height="470" valign="top" bgcolor="#FFFFFF" class="bodyblog" style="padding-left: 50px; padding-right: 50px; border-left-color: #000; border-right-color: #000; background-color: #FF9; font-size: 24px;"><p><span class="blogdate">22.10.2010</span><span class="blogsubheader">台北之旅</span></p>
-      <h1><span class="blogword">四天的行程在雨中度過了, 窗外的景物很模糊, 這裡很快就黑, 感到台灣好像一個大澳門, 市容較為簡陋, 人不算很多, 原來台灣是香港的35 倍而台北市已是香港的6 倍, 我相信今次只是走馬看花, 每處都只停一小時, 最難得是遇到故宮博物院 、101 大樓、中正紀念堂、和在郊野浸溫泉, 其實台灣真是一個寶島, 有好多嘢食!</span> </h1>
-      <p>
-        <object width="425" height="358">
-          <param name="movie" value="http://www.youtube-nocookie.com/v/3jT90FkOxtM?fs=1&amp;hl=en_US&amp;rel=0" />
-          <param name="allowFullScreen" value="true" />
-          <param name="allowscriptaccess" value="always" />
-          <embed src="http://www.youtube-nocookie.com/v/3jT90FkOxtM?fs=1&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="358"></embed>
-        </object>
-      </p></td>
-  </tr>
-  <tr bgcolor="#FFFFCC">
-    <td height="695" valign="top" bgcolor="#FFFFFF" class="bodyblog" style="padding-left: 50px; padding-top: 50px; border-left-color: #000; border-right-color: #000; background-color: #FF9; font-size: 24px;"><p><span class="blogdate">11.09.2010</span><span class="blogsubheader">雨天打足球</span></p>
-    <p class="blogword">今午要打區賽總決賽, 上兩星期已經贏了四場, 如果今次又取勝可以代表荃灣區出線。結果勝一場, 但最後輸了給啡衫隊, 獲得亞軍, 好在都有獎牌囉。這個獎真是得來不易, 淋雨淋足三個鐘, 自問也受不住!!</p>
-    <p class="blogword">之前他問我做咩可囉金牌, 今次他明白了, 原來要付出好多, 他看到隔離囉住個金, 黙黙望吓又望吓自己手上得個銀, 都一樣開心, 他好像想到金真係唔易囉, 要有實力, 自己還未夠呢!</p>
-    <p>&nbsp;</p>
-    <p><img src="prize1.jpg" width="142" height="220" /><img src="prize6.jpg" width="171" height="220" /><img src="prize3.jpg" width="282" height="220" /><img src="image/fprize.jpg" width="262" height="377" /></p></td>
-  </tr>
-  <tr bgcolor="#FFFFCC">
-    <td height="469" valign="top" bgcolor="#FFFFFF" class="bodyblog" style="background-color: #FF9; font-size: 24px;"><p><span class="blogdate">11.08.2010</span><span class="blogsubheader">奇幻3D大宅</span></p>
-      <p><span class="blogword">之前在網上看到3D畫, 覺得香港為何沒有? 現在可在四幅來自名家的3D作品拍照, 真&nbsp;難&nbsp;得!</span></p>
-      <div style="background-color: #FF9; visibility:visible; width:460px; margin:auto">
-        <embed src="http://flash.picturetrail.com/pflicks/3/spflick.swf" quality="high" flashvars="ql=2&src1=http://pic100.picturetrail.com/VOL1034/12850639/flicks/1/8422499" wmode="transparent" bgcolor="#000000" width="419" height="313" name="3d_cube" align="left" allowscriptaccess="sameDomain" style="height:350px;width:460px" type="application/x-shockwave-flash"></embed>
-      </div>
-<p>&nbsp;</p></td>
-  </tr>
-  <tr bgcolor="#FFFFCC">
-    <td height="452" valign="top" bgcolor="#FFFFFF" class="bodyblog" style="padding-left: 50px; padding-right: 50px; border-left-color: #000; border-right-color: #000; background-color: #FF9; font-size: 24px;"><p><span class="blogdate">02.08.2010</span><span class="blogsubheader">動漫電玩節</span></p>
-    <p><span class="blogword">我們是第一次去動漫節, 同小朋友去原來可以行特別通道, 快好多,裡面都是熟悉的卡通人物。Lego館一定要去,砌成很多香港D嘢</span></p>
-    <p><span class="blogword"><span class="photoindex"><a href="PG25/index.htm" class="photoindex">圖片</a></span>。</span></p>
-    <table border="1" cellspacing="0" cellpadding="1">
-      <tr>
-        <td><object width="300" height="300">
-          <param name="movie" value="http://www.youtube-nocookie.com/v/6hPmByjqIqU&amp;hl=en_US&amp;fs=1?rel=0" />
-          <param name="allowFullScreen" value="true" />
-          <param name="allowscriptaccess" value="always" />
-          <embed src="http://www.youtube-nocookie.com/v/6hPmByjqIqU&amp;hl=en_US&amp;fs=1?rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="300" height="300"></embed>
-        </object></td>
-        <td><object width="300" height="300">
-          <param name="movie" value="http://www.youtube-nocookie.com/v/vo-dlswglFw&amp;hl=en_US&amp;fs=1?rel=0" />
-          <param name="allowFullScreen" value="true" />
-          <param name="allowscriptaccess" value="always" />
-          <embed src="http://www.youtube-nocookie.com/v/vo-dlswglFw&amp;hl=en_US&amp;fs=1?rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="300" height="300"></embed>
-        </object></td>
-      </tr>
-    </table>
-    <div style="visibility:visible;width:390px;margin:auto;"> </div>
-<p>&nbsp;</p></td>
-  </tr>
-  <tr bgcolor="#FFFFCC">
-    <td height="145" valign="top" bgcolor="#FFFFFF" class="bodyblog" style="border-left-color: #000; border-right-color: #000; background-color: #FF9; font-size: 24px;"><p><span class="blogdate">01.08.2010</span><span class="blogsubheader">彈弓飛人和閃轉霓裳</span></p>
-      <table border="1" cellspacing="0" cellpadding="1">
-        <tr>
-          <td><object width="300" height="300">
-            <param name="movie" value="http://www.youtube-nocookie.com/v/moU57rVqARk&amp;hl=en_US&amp;fs=1?rel=0" />
+  <table width="100%" height="23218" border="0" cellpadding="0" cellspacing="0">
+    <tr bgcolor="#FFFFCC">
+      <td height="2159" valign="top" bgcolor="#000000" class="bodyblog"
+        style="padding-left: 50px; padding-right: 50px; border-top-color: #000; border-left-color: #000; border-right-color: #000; border-top-style: solid; border-top-width: medium; background-color: #FF9; font-size: 24px; color: #000;">
+        <p><span class="blogdate">08.04.2012 </span>六柱石群、吊鐘洲、橋咀洲之旅</p>
+        <p>&nbsp;</p>
+        <p><img src="image/IMG_5635.JPG" width="485" height="249" /></p>
+        <p><img src="image/IMG_5873.JPG" width="523" height="343" /><img src="image/IMG_5906.JPG" width="523"
+            height="343" /></p>
+        <p><img src="image/IMG_5918.JPG" width="523" height="343" /><img src="image/IMG_5923.JPG" width="523"
+            height="343" /></p>
+        <p><img src="image/IMG_5925.JPG" width="523" height="343" /><img src="image/IMG_5960.JPG" width="523"
+            height="343" /></p>
+        <p><img src="image/IMG_5942.JPG" width="523" height="343" /><img src="image/IMG_5710.JPG" width="419"
+            height="274" /></p>
+        <p><img src="image/IMG_5875.JPG" width="523" height="343" /><img src="image/IMG_5877.JPG" width="523"
+            height="343" /></p>
+        <p><img src="image/IMG_5730.JPG" width="313" height="411" /><img src="image/IMG_5748.JPG" width="523"
+            height="343" /></p>
+        <p><img src="image/IMG_5773.JPG" width="523" height="343" /></p>
+        <p>&nbsp;</p>
+      </td>
+    </tr>
+    <tr bgcolor="#FFFFCC">
+      <td height="2637" valign="top" bgcolor="#000000" class="bodyblog"
+        style="padding-left: 50px; padding-right: 50px; border-top-color: #000; border-left-color: #000; border-right-color: #000; border-top-style: solid; border-top-width: medium; background-color: #FF9; font-size: 24px; color: #000;">
+        <p><span class="blogdate">18.03.2012 </span>維園花展</p>
+        <p>一早到了維園......</p>
+        <p>&nbsp;</p>
+        <p><img src="images/IMG_5456.jpg" width="249" height="277" /></p>
+        <p><img src="images/IMG_5454.jpg" width="431" height="247" /><img src="images/IMG_5552.jpg" width="445"
+            height="264" /></p>
+        <p><img src="images/IMG_5472.jpg" width="434" height="322" /><img src="images/IMG_5477.jpg" width="435"
+            height="326" /></p>
+        <p><img src="images/IMG_5490.jpg" width="424" height="343" /><img src="images/IMG_5495.jpg" width="434"
+            height="237" /></p>
+        <p><img src="images/IMG_5530.jpg" width="421" height="337" /><img src="images/IMG_5532.jpg" width="402"
+            height="343" /></p>
+        <p><img src="images/IMG_5544.jpg" width="418" height="246" /><img src="images/IMG_5579.jpg" width="372"
+            height="268" /></p>
+        <p><img src="images/IMG_5570.jpg" width="335" height="213" /><img src="images/IMG_5577.jpg" width="350"
+            height="194" /></p>
+        <p><img src="images/IMG_5568.jpg" width="523" height="232" /><img src="images/IMG_5507.jpg" width="509"
+            height="322" /></p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+      </td>
+    </tr>
+    <tr bgcolor="#FFFFCC">
+      <td height="1289" valign="top" bgcolor="#000000" class="bodyblog"
+        style="padding-left: 50px; padding-right: 50px; border-top-color: #000; border-left-color: #000; border-right-color: #000; border-top-style: solid; border-top-width: medium; background-color: #FF9; font-size: 24px; color: #000;">
+        <p><span class="blogdate">05.11.2011 </span>到科學園</p>
+        <p>今日同 Jeffrey 到科學園做義工, 由2:00-6:30pm, 負責解釋和控制機械人, 他話很忙, </p>
+        <p>休息都冇時間, 話做嘢很辛苦!! 可能見佢哋小朋友玩咁大駕車, 吸引了ATV拍攝,</p>
+        <p>上了6點新聞報告!!</p>
+        <p>
+          <object width="420" height="315">
+            <param name="movie"
+              value="https://www.youtube-nocookie.com/v/uwUKliTJpyg?version=3&amp;hl=en_US&amp;rel=0" />
             <param name="allowFullScreen" value="true" />
             <param name="allowscriptaccess" value="always" />
-            <embed src="http://www.youtube-nocookie.com/v/moU57rVqARk&amp;hl=en_US&amp;fs=1?rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="300" height="300"></embed>
-          </object></td>
-          <td><object width="300" height="300">
-            <param name="movie" value="http://www.youtube-nocookie.com/v/XNPSR8K_544&amp;hl=en_US&amp;fs=1?rel=0" />
+            <embed src="https://www.youtube-nocookie.com/v/uwUKliTJpyg?version=3&amp;hl=en_US&amp;rel=0"
+              type="application/x-shockwave-flash" width="420" height="315" allowscriptaccess="always"
+              allowfullscreen="true"></embed>
+          </object>
+          <object width="420" height="315">
+            <param name="movie"
+              value="https://www.youtube-nocookie.com/v/79KuKe7WLTs?version=3&amp;hl=en_US&amp;rel=0" />
             <param name="allowFullScreen" value="true" />
             <param name="allowscriptaccess" value="always" />
-            <embed src="http://www.youtube-nocookie.com/v/XNPSR8K_544&amp;hl=en_US&amp;fs=1?rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="300" height="300"></embed>
-          </object></td>
-          <td><object width="300" height="300">
-            <param name="movie" value="http://www.youtube-nocookie.com/v/OSMf-UXI3G4&amp;hl=en_US&amp;fs=1?rel=0" />
-            <param name="allowFullScreen" value="true" />
-            <param name="allowscriptaccess" value="always" />
-            <embed src="http://www.youtube-nocookie.com/v/OSMf-UXI3G4&amp;hl=en_US&amp;fs=1?rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="300" height="300"></embed>
-          </object></td>
-        </tr>
-      </table>
-    <p>&nbsp;</p></td>
-  </tr>
-  <tr bgcolor="#FFFFCC">
-    <td height="145" valign="top" bgcolor="#FFFFFF" class="bodyblog" style="border-left-color: #000; border-right-color: #000; background-color: #FF9; font-size: 24px;"><p><span class="blogdate">31.07.2010</span><span class="blogsubheader">叮噹來了!</span></p>
-    <p><span class="blogword">叮噹已四十年了, 館內許多展覽品都是從日本運來的, 最特別是參觀叮噹屋子, 非常有趣</span></p>
-    <p><span class="blogword"><a href="PG24/index.htm" class="photoindex"> 圖片</a>。</span></p></td>
-  </tr>
-  <tr bgcolor="#FFFFCC">
-    <td height="490" valign="top" bgcolor="#FFFFFF" class="bodyblog" style="padding-left: 50px; padding-right: 50px; border-left-color: #000; border-right-color: #000; background-color: #FF9; font-size: 24px;"><p><span class="blogdate">24.07.2010</span><span class="blogsubheader">玩機械人</span><img src="09082010_RIHK_Y10MD02A_T6_04[1].jpg" width="120" height="90" /><img src="12072010_RIHK_03_Y10MD02A_T02[1].jpg" width="120" height="90" /><img src="19072010_RIHK_Y10MD02A_02_T01[1].jpg" width="120" height="90" /></p>
-      <p><span class="blogword">今個暑假Jeffrey參加了機械人班, 教他用光感應器、齒輪、馬達, 他很喜歡玩這些東西。我們到九龍灣綜合大樓一起玩, 要用廿分鐘自己砌車比賽, 我感到非常陌生, 從來未想到Lego可以走動, 幸好都能有車參賽!<a href="PG21/images/index1.htm" class="photoindex">圖片</a></span> </p>
-      <p>&nbsp;</p>    
-<p>
-  <object width="283" height="228">
-    <param name="movie" value="http://www.youtube-nocookie.com/v/q-gw9bn3Rp8&amp;hl=en_US&amp;fs=1?rel=0" />
-    <param name="allowFullScreen" value="true" />
-    <param name="allowscriptaccess" value="always" />
-    <embed src="http://www.youtube-nocookie.com/v/q-gw9bn3Rp8&amp;hl=en_US&amp;fs=1?rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="283" height="228"></embed>
-  </object>
-  <object width="283" height="228">
-    <param name="movie" value="http://www.youtube-nocookie.com/v/XK9mux1fdHs&amp;hl=en_US&amp;fs=1?rel=0" />
-    <param name="allowFullScreen" value="true" />
-    <param name="allowscriptaccess" value="always" />
-    <embed src="http://www.youtube-nocookie.com/v/XK9mux1fdHs&amp;hl=en_US&amp;fs=1?rel=0" width="283" height="228" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true"></embed>
-  </object>
-</p></td>
-  </tr>
-  <tr bgcolor="#FFFFCC">
-    <td height="358" valign="top" bgcolor="#FFFFFF" class="bodyblog" style="border-left-color: #000; border-right-color: #000; border-top-style: none; background-color: #FF9; font-size: 24px;"><p><span class="blogdate">06.07.2010</span> <span class="blogsubheader">踏滑板車</span></p>
-    <p><span class="blogword">放暑假了, 黃昏時 Jeffrey 就玩scooter, 比較輕便!</span></p><object width="332" height="247">
-  <param name="movie" value="http://www.youtube-nocookie.com/v/U9MXieCouFE&amp;hl=en_US&amp;fs=1?rel=0" />
-  <param name="allowFullScreen" value="true" />
-  <param name="allowscriptaccess" value="always" />
-  <embed src="http://www.youtube-nocookie.com/v/U9MXieCouFE&amp;hl=en_US&amp;fs=1?rel=0" width="332" height="247" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true"></embed>
-</object></td>
-  </tr>
-  <tr bgcolor="#FFFFCC">
-    <td height="427" valign="top" bgcolor="#FFFFFF" class="bodyblog" style="border-left-color: #000; border-right-color: #000; background-color: #FF9; font-size: 24px;"><p><span class="blogdate">06.06.2010</span> <span class="blogsubheader">新聞報導</span></p>
-<table width="30%" height="271" border="0" align="center" cellpadding="0" cellspacing="10">
-        <tr>
-        <th scope="col"><p>
-          <object width="360" height="280">
-            <param name="movie" value="http://www.youtube-nocookie.com/v/afvnMOKJInQ&hl=zh_TW&fs=1&rel=0" />
-            <param name="allowFullScreen" value="true" />
-            <param name="allowscriptaccess" value="always" />
-            <embed src="http://www.youtube-nocookie.com/v/afvnMOKJInQ&hl=zh_TW&fs=1&rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="360" height="280"></embed>
+            <embed src="https://www.youtube-nocookie.com/v/79KuKe7WLTs?version=3&amp;hl=en_US&amp;rel=0"
+              type="application/x-shockwave-flash" width="420" height="315" allowscriptaccess="always"
+              allowfullscreen="true"></embed>
           </object>
         </p>
-          <p>reporter</p></th>
-        <th scope="col"><p>
-          <object width="360" height="280">
-            <param name="movie" value="http://www.youtube-nocookie.com/v/fS70LKcClCk&hl=zh_TW&fs=1&rel=0" />
+        <p>&nbsp;</p>
+        <p><img src="robIMG_5004.jpg" width="538" height="380" /></p>
+        <p><img src="robIMG_5018.jpg" width="536" height="293" /></p>
+        <p><img src="robIMG_4981.jpg" width="539" height="412" /></p>
+        <p><img src="robIMG_5025.jpg" width="543" height="320" />
+          <object width="420" height="315">
+            <param name="movie"
+              value="https://www.youtube-nocookie.com/v/T1NaQXAsCWQ?version=3&amp;hl=en_US&amp;rel=0" />
             <param name="allowFullScreen" value="true" />
             <param name="allowscriptaccess" value="always" />
-            <embed src="http://www.youtube-nocookie.com/v/fS70LKcClCk&hl=zh_TW&fs=1&rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="360" height="280"></embed>
+            <embed src="https://www.youtube-nocookie.com/v/T1NaQXAsCWQ?version=3&amp;hl=en_US&amp;rel=0"
+              type="application/x-shockwave-flash" width="420" height="315" allowscriptaccess="always"
+              allowfullscreen="true"></embed>
           </object>
         </p>
-          <p>Camera man</p></th>
-      </tr>
-    </table></td>
-  </tr>
-  <tr bgcolor="#FFFFCC">
-    <td height="457" valign="top" bgcolor="#FFFFFF" class="bodyblog" style="border-left-color: #000; border-right-color: #000; background-color: #FF9; font-size: 24px;"><p><span class="blogdate">22.05.2010</span> <span class="blogsubheader">自己畫蛋糕</span></p>
-    <p><span class="blogword">就是在峄仔和家瑩生日中,我們 一起創作蛋糕的圖樣, 很有趣味!</span></p>
-    <table width="32%" height="334" border="0" align="center" cellpadding="0" cellspacing="0">
-      <tr>
-        <td height="334"><p>
-          <object width="425" height="283">
-            <param name="movie" value="http://www.youtube-nocookie.com/v/_oXslAvuNTc&hl=zh_TW&fs=1&rel=0" />
+        <p><img src="robIMG_5017.jpg" width="541" height="293" /></p>
+        <p>&nbsp;</p>
+      </td>
+    </tr>
+    <tr bgcolor="#FFFFCC">
+      <td height="1289" valign="top" bgcolor="#000000" class="bodyblog"
+        style="padding-left: 50px; padding-right: 50px; border-top-color: #000; border-left-color: #000; border-right-color: #000; border-top-style: solid; border-top-width: medium; background-color: #FF9; font-size: 24px; color: #000;">
+        <p><span class="blogdate">30.09.2011 </span>遊歷史博物館</p>
+        <p>&nbsp;</p>
+        <p><img src="IMG_4899h.jpg" width="408" height="291" /></p>
+        <p><img src="IMG_4857h.jpg" width="406" height="326" /></p>
+        <p><img src="IMG_4826h.jpg" width="411" height="377" /></p>
+        <p><img src="IMG_4860h.jpg" width="527" height="305" /></p>
+        <p><img src="IMG_4885h.jpg" width="532" height="412" /></p>
+        <p>&nbsp;</p>
+      </td>
+    </tr>
+    <tr bgcolor="#FFFFCC">
+      <td height="1289" valign="top" bgcolor="#000000" class="bodyblog"
+        style="padding-left: 50px; padding-right: 50px; border-top-color: #000; border-left-color: #000; border-right-color: #000; border-top-style: solid; border-top-width: medium; background-color: #FF9; font-size: 24px; color: #000;">
+        <p><span class="blogdate">20.04.2011 </span>遊辛亥革命展覽</p>
+        <p><img src="IMG_3333.jpg" width="544" height="322" /></p>
+        <p><img src="IMG_3328.jpg" width="452" height="284" /></p>
+        <p><img src="IMG_3340.jpg" width="452" height="284" /></p>
+        <p><img src="IMG_3349.jpg" width="452" height="310" /></p>
+      </td>
+    </tr>
+    <tr bgcolor="#FFFFCC">
+      <td height="381" valign="top" bgcolor="#000000" class="bodyblog"
+        style="padding-left: 50px; padding-right: 50px; border-top-color: #000; border-left-color: #000; border-right-color: #000; border-top-style: solid; border-top-width: medium; background-color: #FF9; font-size: 24px; color: #000;">
+        <p><span class="blogdate">25.05.2011 </span>Exhibition at School Hall</p>
+        <p>
+          <object width="425" height="349">
+            <param name="movie"
+              value="https://www.youtube-nocookie.com/v/5FBKTdtyWFk?version=3&amp;hl=en_US&amp;rel=0" />
             <param name="allowFullScreen" value="true" />
             <param name="allowscriptaccess" value="always" />
-            <embed src="http://www.youtube-nocookie.com/v/_oXslAvuNTc&hl=zh_TW&fs=1&rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="283"></embed>
+            <embed src="https://www.youtube-nocookie.com/v/5FBKTdtyWFk?version=3&amp;hl=en_US&amp;rel=0"
+              type="application/x-shockwave-flash" width="425" height="349" allowscriptaccess="always"
+              allowfullscreen="true"></embed>
           </object>
-        </p></td>
-      </tr>
-    </table></td>
-  </tr>
-  <tr bgcolor="#FFFFCC">
-    <td height="375" valign="top" bgcolor="#FFFFFF" class="bodyblog" style="padding-left: 50px; padding-right: 50px; background-color: #FF9; font-size: 12px; color: #033;"><table width="30%" border="0" align="left" cellpadding="1" cellspacing="0">
-        <tr>
-        <td height="241"><p><span style="border-top-color: #000; border-top-style: solid; border-top-width: medium; background-color: #FFF;"><span style="border-top-color: #000; border-top-style: solid; border-top-width: medium; background-color: #FFF;"><span style="border-top-color: #000; border-top-style: solid; border-top-width: medium; background-color: #FFF;"><span style="border-top-color: #000; border-top-style: solid; border-top-width: medium; background-color: #FFF;"><img src="IMG_0554-1.jpg" width="240" height="240" border="0" align="middle" usemap="#Map" /></span></span></span></span></p></td>
-        <td>&nbsp;</td>
-        <td><span style="border-top-color: #000; border-top-style: solid; border-top-width: medium; background-color: #FFF;"><img src="IMG_0563-1.jpg" width="240" height="240" align="middle" /></span></td>
-        </tr>
-    </table>
-    <p>&nbsp;</p>
-<p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>(請Click手看他們做D咩)</p>
-<p><span class="blogdate">24.04.2010</span> <span class="blogsubheader">清明上河圖</span></p>
-    <span class="blogword">這幅畫長逾100呎,由28幅紙雕畫組成,接著就會送往上海博覽會展出,手工真是很細緻! Jeffrey有機會參與工作坊, 學做一幅卡通立體畫, 教師是講普通話, 他們都很奇怪他聽得懂呢!</span></td>
-  </tr>
-  <tr bgcolor="#FFFFCC">
-    <td height="462" valign="top" bgcolor="#FFFFFF" class="bodyblog" style="background-color: #FF9;"><span class="blogdate">1８.04.2010</span>
-    <p class="blogsubheader">寶隆中心的 Paintball Game</p>
-    <p class="blogword">Joshwa 今年生日邀請 Jeffrey 到生日Party, 他們玩射 paintball, 要穿上全身裝備，每人可發１５０塊子彈，射中好像蚊虰，　他們很喜歡玩，　而且預約了暑假再玩呢！</p>
-    <span class="blogword"><img src="DSCN0760-1.jpg" width="277" height="259" /></span></td>
-  </tr>
-  <tr>
-    <td height="446" valign="top" class="bodyblog" style="padding-left: 50px; padding-right: 50px; background-color: #FF9; color: #FFC;"><span class="blogdate">04.04.2010</span><span class="blogsubheader"> 香港地質公園</span> <span class="blogsubheader">Geopark</span>
-<table width="59%" height="301" border="0" align="center" cellpadding="2">
-  <tr>
-        <td width="65%" height="297"><object width="358" height="284">
-          <param name="movie" value="http://www.youtube-nocookie.com/v/dcqGah6p0K4&hl=en_US&fs=1&rel=0" />
-          <param name="allowFullScreen" value="true" />
-          <param name="allowscriptaccess" value="always" />
-          <embed src="http://www.youtube-nocookie.com/v/dcqGah6p0K4&hl=en_US&fs=1&rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="358" height="284"></embed>
-        </object></td>
-        <td width="35%"><object width="329" height="286">
-          <param name="movie" value="http://www.youtube-nocookie.com/v/Qm44Pd_HAY4&hl=en_US&fs=1&rel=0" />
-          <param name="allowFullScreen" value="true" />
-          <param name="allowscriptaccess" value="always" />
-          <embed src="http://www.youtube-nocookie.com/v/Qm44Pd_HAY4&hl=en_US&fs=1&rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="329" height="286"></embed>
-        </object></td>
-      </tr>
-    </table>
-    <p class="blogword">我們早上7:30出發到大學站, 下著微雨, 要步行到碼頭, 向印塘海峽出發。</p>
-<span class="blogword">香港有六個地質公園, 今次我們去看了三個, 有赤印(沿岸的石都是赤色)、有荔枝窩( 島上有棵通心樹、五指樟和仙藤)，三就是東平洲的頁岩,  雖然船程要三小時, 令人頭昏腦脹, 但是這樣的奇景真是難得一見, 原來香港都有原始的風景, 叫人驚訝!!<a href="PG20/index.htm"><span class="photoindex"> 圖片</span></a></span></td>
-  </tr>
-  <tr bgcolor="#FFFF99">
-    <td height="552" valign="top" bgcolor="#FFFF99" class="bodyblog" style="border-top-style: none; background-color: #FF9;"><span class="blogdate">16.03.2010</span> <span class="blogsubheader">Jeffrey 三日兩夜Camp</span><img src="image/camp3.jpg" width="205" height="167" /><span class="blogsubheader"><img src="image/camp2.jpg" width="259" height="168" /></span>
-    <p class="blogword">他出門時話有D驚, 回來就話好玩! 不過有口爛、手損、個身臭,  晚上有人拷門又驚, 半夜三點起咗身, 他真很倦!
-      <script></script>
-      他喜歡在家多過去 camp, 這裏許多嘢要自己做, 我覺得他變得聽話了。</p>
-    <table width="83%" height="279" border="0" cellpadding="2">
-      <tr>
-        <td width="33%" height="263"><object width="303" height="264">
-          <param name="movie" value="http://www.youtube.com/v/PfDg0QxbQrc&amp;hl=en_US&amp;fs=1&amp;rel=0&amp;color1=0x3a3a3a&amp;color2=0x999999" />
-          <param name="allowFullScreen" value="true" />
-          <param name="allowscriptaccess" value="always" />
-          <embed src="http://www.youtube.com/v/PfDg0QxbQrc&amp;hl=en_US&amp;fs=1&amp;rel=0&amp;color1=0x3a3a3a&amp;color2=0x999999" width="303" height="264" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" movie="http://www.youtube.com/v/PfDg0QxbQrc&amp;hl=en_US&amp;fs=1&amp;rel=0&amp;color1=0x3a3a3a&amp;color2=0x999999"></embed>
-        </object></td>
-        <td width="31%"><object width="310" height="267">
-          <param name="movie" value="http://www.youtube-nocookie.com/v/c8-K1TfvApI&amp;hl=en_US&amp;fs=1&amp;rel=0&amp;color1=0x402061&amp;color2=0x9461ca" />
-          <param name="allowFullScreen" value="true" />
-          <param name="allowscriptaccess" value="always" />
-          <embed src="http://www.youtube-nocookie.com/v/c8-K1TfvApI&amp;hl=en_US&amp;fs=1&amp;rel=0&amp;color1=0x402061&amp;color2=0x9461ca" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="310" height="267"></embed>
-        </object></td>
-        <td width="36%"><object width="313" height="279">
-          <param name="movie" value="http://www.youtube.com/v/BbOVBAQlAYc&amp;hl=en_US&amp;fs=1&amp;rel=0&amp;color1=0x3a3a3a&amp;color2=0x999999" />
-          <param name="allowFullScreen" value="true" />
-          <param name="allowscriptaccess" value="always" />
-          <embed src="http://www.youtube.com/v/BbOVBAQlAYc&amp;hl=en_US&amp;fs=1&amp;rel=0&amp;color1=0x3a3a3a&amp;color2=0x999999" width="313" height="279" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true"></embed>
-        </object></td>
-      </tr>
-    </table></td>
-  </tr>
-  <tr bgcolor="#FFFFCC">
-    <td height="513" class="bodyblog" style="border-top-color: #999; border-top-style: none; background-color: #FF9;"><p><span class="blogdate">30.01.2010</span> <span class="blogsubheader">西九海濱長廊</span></p>
-      <p class="blogword">我們到了西九踏單車, 原來這地就近圓方ice rink 出口, 這裏裡很幽靜, 最特別是在這市區裏有一條彎曲望海的單車徑, Jeffrey 很開心, 他未曾在單車徑玩過, 我們還看到直升機下降, 真是很大塵!</p>
-<span style="background-color: #FFF"> </span><span style="border-top-color: #999; border-top-style: none; background-color: #FFF;"><span style="border-top-color: #999; border-top-style: none; background-color: #FFF;"><span style="border-top-color: #999; border-top-style: none; background-color: #FFF;"><span style="border-top-color: #999; border-top-style: none; background-color: #FFF;"><span style="border-top-color: #999; border-top-style: none; background-color: #FFF;"><span style="border-top-color: #999; border-top-style: none; background-color: #FFF;"><span style="border-top-color: #999; border-top-style: none; background-color: #FFF;">
-<object width="290" height="293">
-  <param name="movie" value="http://www.youtube.com/v/dnj2cwxHtz4&hl=en_US&fs=1&" />
-  <param name="allowFullScreen" value="true" />
-  <param name="allowscriptaccess" value="always" />
-  <embed src="http://www.youtube.com/v/dnj2cwxHtz4&hl=en_US&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="290" height="293"></embed>
-</object>
-</span></span></span></span></span></span></span><embed src="http://flash.picturetrail.com/pflicks/3/spflick.swf" quality="high" flashvars="ql=2&src1=http://pic100.picturetrail.com/VOL1034/12850639/flicks/1/7946048" wmode="transparent" bgcolor="#000000" width="274" height="237" name="magnifier" align="bottom" allowscriptaccess="sameDomain" style="height:300px; width:300px" type="application/x-shockwave-flash"></embed></td>
-  </tr>
-  <tr bgcolor="#FFFFCC">
-    <td height="536" bgcolor="#FFFFFF" class="bodyblog" style="background-color: #FF9;"><p><span class="blogdate">16.01.2010</span> <span class="blogsubheader">上山頂</span></p>
-    <p class="blogword">下午我帶 Jeffrey 乘坐 Peak Tram 到山頂去,剛剛又遇上高鐵示威, 我們便去看看, 發覺都很和平, 山頂的夜影仍然很迷人, 但很冷<span style="background-color: #FFF"></span>, 媽又打電話來話山下很亂, 晚上親眼看到十多輛警車和防衛警察, 才感到心寒! 便立即回家。</p><embed src="http://flash.picturetrail.com/pflicks/3/spflick.swf" width="426" height="274" align="middle" style="height:350px;width:460px" quality="high" flashvars="ql=2&src1=http://pic100.picturetrail.com/VOL1034/12850639/flicks/1/7946099" wmode="transparent" bgcolor="#000000" name="zoom_and_fade" allowscriptaccess="sameDomain" type="application/x-shockwave-flash" scale="noborder"></embed></td>
-  </tr>
-  <tr bgcolor="#FFFFCC">
-    <td height="495" bgcolor="#FFFFFF" class="bodyblog" style="background-color: #FF9;"><p><span class="blogdate">25.12.2009</span> <span class="blogsubheader">聖誕節有火雞食</span></p>
-<embed src="http://flash.picturetrail.com/pflicks/3/spflick.swf" width="305" height="292" align="bottom" style="height:420px; width:400px" quality="high" flashvars="ql=2&src1=http://pic80.picturetrail.com/VOL1923/12789464/flicks/1/7882383" wmode="transparent" bgcolor="#000000" name="radial" allowscriptaccess="sameDomain" type="application/x-shockwave-flash" scale="noborder"></embed><object width="381" height="332" align="bottom">
-  <param name="movie" value="http://www.youtube.com/v/e2r2QArPLCk&hl=en_US&fs=1&" />
-  <param name="allowFullScreen" value="true" />
-  <param name="allowscriptaccess" value="always" />
-  <embed src="http://www.youtube.com/v/e2r2QArPLCk&hl=en_US&fs=1&" width="381" height="332" align="bottom" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true"></embed>
-</object></td>
-  </tr>
-  <tr bgcolor="#FFFFCC">
-    <td height="531" bgcolor="#FFFFFF" class="bodyblog" style="background-color: #FF9;"><span class="blogdate">23.12.2009</span> <span class="blogsubheader">濕地公園</span>
-      <p class="blogword">這裡要用望遠鏡才能看到鳥, 四處都是水, 感覺是在水田上行走, 太陽很接近大地, 很有趣, 我們見到小紅蟹和水蓮, 貝貝也住在這裡, 裏面有大家樂, 好似一個飯堂, 我們吃飯後, 才回家去。</p>
-<embed src="http://flash.picturetrail.com/pflicks/3/spflick.swf" width="509" height="336" align="middle" style="height:410px;width:540px" quality="high" flashvars="ql=2&src1=http://pic80.picturetrail.com/VOL1923/12789464/flicks/1/7882435" wmode="transparent" bgcolor="#000000" name="sequence" allowscriptaccess="sameDomain" type="application/x-shockwave-flash" scale="noborder"></embed></td>
-  </tr>
-  <tr bgcolor="#FFFFCC">
-    <td height="555" bgcolor="#FFFFFF" class="bodyblog" style="background-color: #FF9;"><p><span class="blogdate">19.12.2009</span>
-        <span class="blogsubheader">科學館</span></p>
-      <p class="blogword">在中国野生動物標本展中, 見到已絕種和極卮動物,有中華鱘、雪豹、金鵰和揚子鱷, 栩栩如生, 很可怕!</p>
-<embed src="http://flash.picturetrail.com/pflicks/3/spflick.swf" quality="high" flashvars="ql=2&src1=http://pic80.picturetrail.com/VOL1923/12789464/flicks/1/7882529" wmode="transparent" bgcolor="#000000" width="452" height="333" name="photo_peel" align="left" allowscriptaccess="sameDomain" style="height:410px; width:500px" type="application/x-shockwave-flash"></embed></td>
-  </tr>
-  <tr bgcolor="#FFFFCC">
-    <td height="420" bgcolor="#FFFFFF" class="bodyblog"><span class="blogdate">12.12.2009 </span>
-      <span class="blogsubheader">藝術嘉年華</span>
-      <p class="blogword">今天我們到文化中心看藝術表演, 很精彩, jeffrey 很喜歡打拍子,所以都很開心, 這次是他第一次看大型表演。</p><embed src="http://flash.picturetrail.com/pflicks/3/spflick.swf" quality="high" flashvars="ql=2&src1=http://pic100.picturetrail.com/VOL1034/12850639/flicks/1/7882505" wmode="transparent" bgcolor="#000000" width="514" height="313" name="liquid" align="middle" allowscriptaccess="sameDomain" style="height:400px; width:540px" type="application/x-shockwave-flash"></embed></td>
-  </tr>
-  <tr>
-    <td height="404" class="bodyblog"><span class="blogdate">20.11.2009</span><span class="blogsubheader"> Light Dance</span>
-      <p>
-        <object width="271" height="261">
-          <param name="movie" value="http://www.youtube.com/v/OJH70hIxANE&amp;hl=en_US&amp;fs=1&amp;" />
-          <param name="allowFullScreen" value="true" />
-          <param name="allowscriptaccess" value="always" />
-          <embed src="http://www.youtube.com/v/OJH70hIxANE&amp;hl=en_US&amp;fs=1&amp;" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="271" height="261"></embed>
-        </object>
-        <object width="249" height="260">
-          <param name="movie" value="http://www.youtube.com/v/7II4mowv-yQ&amp;hl=en_US&amp;fs=1&amp;" />
-          <param name="allowFullScreen" value="true" />
-          <param name="allowscriptaccess" value="always" />
-          <embed src="http://www.youtube.com/v/7II4mowv-yQ&amp;hl=en_US&amp;fs=1&amp;" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="249" height="260"></embed>
-        </object>
-      <img src="image/IMG_7796-1.jpg" width="244" height="251" /></p><p class="blogword">晚上要表演, 是否很駭人的樣子呢, 全班都化成黑黝黝的, 用這方法表達出光。旁邊是上年的表演African Song, 他做一隻斑馬, 又要講嘢。</p></td>
-  </tr>
-  <tr>
-    <td height="408" class="bodyblog"><p><a href="PG13/index.htm" class="blogdate"> <span class="blogdate">23.10.2009</span></a> <span class="blogsubheader">Noah's Park</span></p>
-      <p><img src="image/IMG_7562-1.jpg" width="266" height="244" class="blogphoto" />
-        <object width="288" height="257">
-          <param name="movie" value="http://www.youtube.com/v/GLzQGUwvGuI&amp;hl=en_US&amp;fs=1&amp;" />
-          <param name="allowFullScreen" value="true" />
-          <param name="allowscriptaccess" value="always" />
-          <embed src="http://www.youtube.com/v/GLzQGUwvGuI&amp;hl=en_US&amp;fs=1&amp;" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="288" height="257"></embed>
-        </object>
-      </p>
-<p class="blogword">我們到了馬灣的挪亞方舟, 首先要購買入場券, 地方玩樂主要是在荒舟裏, 這裡較適合小朋友, 學術性高, 動物很真很有趣, 但方舟內不可拍照。</p><span class="photoindex">圖片</span></td>
-  </tr>
-</table>
-<table width="100%" height="365" border="0" cellpadding="0" cellspacing="0">
-  <tr style="font-size: 36px;">
-    <td height="359" class="bodyblog"><p><a href="PG12-1/index.htm" class="blogdate"><span class="blogdate">26.10.2009</span></a><span class="blogsubheader">日經活動 </span></p>
-<object width="330" height="222">
-        <param name="movie" value="http://www.youtube.com/v/QgcUx8FBvNw&hl=en_US&fs=1&" />
-        <param name="allowFullScreen" value="true" />
-        <param name="allowscriptaccess" value="always" />
-        <embed src="http://www.youtube.com/v/QgcUx8FBvNw&hl=en_US&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="330" height="222"></embed>
-      </object>
-      <span class="photoindex">圖片</span>
-    <p class="blogword">一年一次的慈善日中, 我們參觀了舞蹈表演和拍賣, 又有攤位擺賣, 他們都是說日語, 有的是學生, 有的是日本老師, 雖然我們不太明白, 但好像到了日本呢!</p>
-    <p class="blogword">&nbsp;</p></td>
-  </tr>
-</table>
-<table width="100%" border="0" cellspacing="0">
-  <tr style="padding-right: 50px; padding-left: 50px;">
-    <td height="283" class="bodyblog"><p><span class="blogdate">03.10.09</span><span class="blogsubheader">中秋節</span></p>
-<p align="left" class="blogword">今年的中秋節有很多花燈, 我們到了西鐵 、維園和尖沙咀看燈飾, 最特別是在晚上十一時到樓下玩, 這裡今年很熱鬧, 四處都是燈火, 我們也玩火,可惜沒有預備燈籠呢!  <img src="image/moonfestival 001-1.jpg" width="252" height="224" align="left" g" /></p>
-<p align="left" class="blogword"><strong class="photoindex" style="font-size: large">圖片</strong><img src="image/cute/086.JPG" width="87" height="105" /></p></td>
-  </tr>
-</table>
-<table width="100%" border="0" cellpadding="0" cellspacing="0">
-  <tr>
-    <td height="355" class="bodyblog"><p class=""><span class="blogdate">10.08.09 </span><span class="blogsubheader">沙田新城市廣場</span></p>
-<span class="blogdate"><img src="image/games/shatin01.jpg" width="216" height="275" /></span><span class="blogword">後面是用紙砌成的, 高於一個人, 非常特別。</span><p class="photoindex">圖片</p>
-<p class="photoindex">&nbsp;</p></td>
-  </tr>
-  <tr style="border-bottom-color: #000; border-bottom-style: solid; border-bottom-width: medium;">
-    <td height="310" class="bodyblog"><p class="chinese1"><span class="blogdate">02.08.09 </span><span class="blogsubheader">踏單車</span></p>
-      <p><span class="chinese6"><strong><span class="blogphoto"><img src="image/games/IMG_7058.JPG" width="270" height="219" align="middle" /></span></strong></span><img src="image/cute/BAJ010349.JPG" width="126" height="89" /><span class="chinese6"><strong>
-        <object width="279" height="230" align="middle">
-          <param name="movie" value="http://www.youtube.com/v/LysaFTJcwVo&amp;hl=en_US&amp;fs=1&amp;" />
-          <param name="allowFullScreen" value="true" />
-          <param name="allowscriptaccess" value="always" />
-          <embed src="http://www.youtube.com/v/LysaFTJcwVo&amp;hl=en_US&amp;fs=1&amp;" width="279" height="230" align="middle" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true"></embed>
-        </object>
-        </strong></span></p>
-<p class="blogword"><strong>今天 Jeffrey 终於學識踏單車了,當然很興奮, 他在一有時間就到樓下玩,曾經反了幾次車啦!</strong></p></td>
-  </tr>
-  <tr>
-    <td valign="middle" class="bodyblog"><p><span align="left" class="blogdate">07.04.09    </span>
-        <span align="left" class="blogsubheader">科學館</span></p>
-    <p><img src="image/games/scary01.jpg" width="276" height="217" /><span class="blogword">這個樣真是很有趣, 驚嚇!</span></p></td>
-  </tr>
-  <tr>
-    <td height="354" class="bodyblog"><p class="chinese1"><span class="chinese4"><span class="blogdate">17.04.09</span></span><span class="chinese4"> <span class="blogsubheader">溜冰場</span></span></p>
-<p class="blogword">今天我們到了九龍站的 ice rink, 這裡都很靜, 雖然沒有又一城的光猛,玩了四十塊錢,記得這裡是用octopus 找數, 不是以 section 計。</p>
-<img src="image/games/stanley 129.jpg" width="277" height="215" align="bottom" />
-<object width="260" height="217">
-  <param name="movie" value="http://www.youtube.com/v/uSUh_Y8DnIE&hl=en_US&fs=1&" />
-  <param name="allowFullScreen" value="true" />
-  <param name="allowscriptaccess" value="always" />
-  <embed src="http://www.youtube.com/v/uSUh_Y8DnIE&hl=en_US&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="260" height="217"></embed>
-</object></td>
-  </tr>
-  <tr>
-    <td height="340" valign="middle" class="bodyblog" style="" o"><p><span class="blogdate">11.04.09  </span><span class="blogsubheader">赤柱一遊</span>
-      
-      <p><span class="blogword"><img src="image/games/stanley 02.jpg" width="221" height="233" />
-        <object width="252" height="234" align="top">
-          <param name="movie" value="http://www.youtube.com/v/porgQ0zALko&amp;hl=en_US&amp;fs=1&amp;" />
-          <param name="allowFullScreen" value="true" />
-          <param name="allowscriptaccess" value="always" />
-          <embed src="http://www.youtube.com/v/porgQ0zALko&amp;hl=en_US&amp;fs=1&amp;" width="252" height="234" align="top" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true"></embed>
-        </object>      
-      </p><span class="blogword">我們坐了很
-        
-    好耐車終於來到赤柱, 這裡地方很小, 不是想像中美麗! <span class="photoindex">圖片</span></span></td>
-  </tr>
-  <tr valign="top">
-    <td height="568" valign="top" class="bodyblog"><p><span class="blogdate">2.11.08</span><span class="blogsubheader">韓國一遊</span> <a name="leaves" id="leaves"></a></p>
-      <table width="41%" height="327" border="0" align="center" cellpadding="0" cellspacing="0">
-        <tr>
-          <td><object width="448" height="261" align="absmiddle">
-            <param name="movie" value="http://www.youtube-nocookie.com/v/sNx2mSjt0Js&hl=en_US&fs=1&rel=0" />
+          <object width="560" height="349">
+            <param name="movie"
+              value="https://www.youtube-nocookie.com/v/IjD5qYKy4qM?version=3&amp;hl=en_US&amp;rel=0" />
             <param name="allowFullScreen" value="true" />
             <param name="allowscriptaccess" value="always" />
-            <embed src="http://www.youtube-nocookie.com/v/sNx2mSjt0Js&hl=en_US&fs=1&rel=0" width="448" height="261" align="absmiddle" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true"></embed>
-          </object></td>
-        </tr>
-      </table>
-      <table width="82%" border="0" cellspacing="0" cellpadding="0">
-        <tr>
-          <td height="305"><img src="newyearlion-1.jpg" width="332" height="291" /></td>
-          <td><img src="newyearlion 002-1.jpg" width="377" height="290" /></td>
-          <td><img src="newyearlion 003-1.jpg" width="373" height="290" /></td>
-        </tr>
-      </table>
-      <p class="yout">&nbsp;</p>
-      <p class="blogword">其實上年已想到韓國,但因 passport 問題, 始終沒有去。在網上得知韓國團D導遊很差，臉黑迫人買嘢，韓國人又不喜歡中國人，地方很悶，
-        加上 Jeffrey 要坐零晨機，食物天氣不知怎樣，假期又有功課，考慮很久，終於 Edward 決定報團，初時我們不是參加這團，現在的團是我們的第二選擇。結果，這旅程玩很開心和很難忘! </p>
-      <p class="blogword">我想告訴大家到韓國玩一定要注意幾點 : </p>
-      <p class="blogword">1)團種很多，一定要明白自己想看什麼，最好選擇不要落機立即游泳,    不要購物多，不要太多運動, 不過其實很難, 因為領隊會調動活動的次序。<br style="background-color: #CFC;" />
-        2) 因為韓國以零晨機為主，要準備一袋嘢有水、有葯、毛巾牙刷和
-        厚衣，一落機便可立即由行李箱取回。<br />
-        3) 不要因購物而去，香港什麼都有，購物盡量不要講價，因言語不通，
-        太花時間，梨太院、東大門不去也罷。<br />
-        4) 不要要求太高，韓國不是日本，不是香港，它有一種田園風味，感
-        覺很舒服。<br />
-        5) 最好不要貪平，一定要選擇大旅行社, 因為食物的質素很重要,
-        又不會迫你買太多嘢。<br />
-        6) 可考慮玩D新建的設施，會開心D !<br />
-        7) 如果去玩水上樂園，最好穿長袖衣，室外和水很冻的。<br />
-      8) 韓國的溫度應該接近 &quot;最高溫度&quot; 。</p>
-      <p class="blogword">永安香港的Sammy, 韓國的Snoopy，住在韓國的Dormond 都非常好，
-    我們真是感到很幸運可以參加他們的團，希望下次可與他們在韓國滑雪!</p>
-    <p class="blogword"><a href="PG18/index.htm" class="photoindex">圖片</a></p></td>
-  </tr>
-</table>
+            <embed src="https://www.youtube-nocookie.com/v/IjD5qYKy4qM?version=3&amp;hl=en_US&amp;rel=0"
+              type="application/x-shockwave-flash" width="560" height="349" allowscriptaccess="always"
+              allowfullscreen="true"></embed>
+          </object>
+        </p>
+        <p>&nbsp; </p>
+      </td>
+    </tr>
+    <tr bgcolor="#FFFFCC">
+      <td height="657" valign="top" bgcolor="#FFFF99" class="bodyblog"
+        style="padding-left: 50px; padding-right: 50px; border-top-color: #000; border-left-color: #000; border-right-color: #000; border-top-style: solid; border-top-width: medium; background-color: #FF9; font-size: 24px;">
+        <p><span class="blogdate">06.12.2010</span><span class="blogsubheader">Camping</span></p>
+        <p><img src="image/camp1.jpg" width="222" height="203" /><span class="blogword">今次的目的地係 Pui O Beach, Lantau
+            Island 's TreasureIsland, 我一早就問亞姐借sleeping bag and sleep mat, <img src="mat.jpg" width="111" height="125" />
+            今次要訓地下, Jeffrey話這次去Camp很辛苦, 沖涼要一齊沖, 夜晚又訓得唔好, 但都很好玩, 都沒有唔見嘢呢!</span></p>
+        <p>&nbsp;</p>
+        <p><img src="image/campp2.jpg" width="294" height="258" /><img src="image/campp4.jpg" width="294"
+            height="258" />
+          <object width="294" height="258" align="top">
+            <param name="movie" value="https://www.youtube-nocookie.com/v/U6qsNO5FJY4?fs=1&amp;hl=en_US&amp;rel=0" />
+            <param name="allowFullScreen" value="true" />
+            <param name="allowscriptaccess" value="always" />
+            <embed src="https://www.youtube-nocookie.com/v/U6qsNO5FJY4?fs=1&amp;hl=en_US&amp;rel=0" width="294"
+              height="258" align="top" type="application/x-shockwave-flash" allowscriptaccess="always"
+              allowfullscreen="true"></embed>
+          </object>
+        </p>
+        <p>&nbsp;</p>
+      </td>
+    </tr>
+    <tr bgcolor="#FFFFCC">
+      <td height="377" valign="top" bgcolor="#FFFFFF" class="bodyblog"
+        style="padding-left: 100px; padding-right: 100px; border-left-color: #000; border-right-color: #000; background-color: #FF9; font-size: 24px;">
+        <p><span class="blogdate">16.11.2010</span><span class="blogsubheader">遊嘉道理農場</span></p>
+        <h1><span class="blogword">嘉道理農場的名我就聽得耐, 但從來未去過, 裡面原來好大, 路牌不很清楚, 我和七位小朋友一起沿著路線圖參觀, 結果都能平安準時完成,
+            看到貓頭鷹、松鼠、野豬和大肥豬,我們運動了一天!</span></h1>
+        <p><img src="IMG_2539.JPG" width="187" height="180" /><img src="IMG_2544.JPG" width="187" height="180" /><img
+            src="IMG_2529.JPG" width="150" height="196" /><img src="IMG_2505.JPG" width="150" height="196" /><img
+            src="DSCN0825.JPG" width="150" height="196" /></p>
+        <p><img src="IMG_2537.JPG" width="400" height="261" /><img src="IMG_2508.JPG" width="400" height="261" /></p>
+        <p>&nbsp;</p>
+      </td>
+    </tr>
+    <tr bgcolor="#FFFFCC">
+      <td height="386" valign="top" bgcolor="#FFFFFF" class="bodyblog"
+        style="padding-left: 50px; padding-right: 50px; border-left-color: #000; border-right-color: #000; background-color: #FF9; font-size: 24px;">
+        <p><span class="blogdate">15.11.2010</span><span class="blogsubheader">學吹單黃管</span></p>
+        <h1><span class="blogword">聽真D啦!</span></h1>
+        <p>
+          <object width="299" height="255" align="middle">
+            <param name="movie" value="https://www.youtube-nocookie.com/v/F5MTeWpjAg0?fs=1&amp;hl=en_US&amp;rel=0" />
+            <param name="allowFullScreen" value="true" />
+            <param name="allowscriptaccess" value="always" />
+            <embed src="https://www.youtube-nocookie.com/v/F5MTeWpjAg0?fs=1&amp;hl=en_US&amp;rel=0" width="299"
+              height="255" align="middle" type="application/x-shockwave-flash" allowscriptaccess="always"
+              allowfullscreen="true"
+              movie="https://www.youtube-nocookie.com/v/F5MTeWpjAg0?fs=1&amp;hl=en_US&amp;rel=0"></embed>
+          </object>
+        </p>
+      </td>
+    </tr>
+    <tr bgcolor="#FFFFCC">
+      <td height="392" valign="top" bgcolor="#FFFFFF" class="bodyblog"
+        style="border-left-color: #000; border-right-color: #000; background-color: #FF9; font-size: 24px;">
+        <p><span class="blogdate">14.11.2010</span><span class="blogsubheader">機械人學堂</span></p>
+        <h1><span class="blogword">每星期都教一樣電子工具和拍照!</span></h1>
+        <p><img src="RIHK_Y11R01D_01_T01[1].jpg" width="200" height="200" border="1" /><img
+            src="26092010_RIHK_Y11R01D_T06_02[1].jpg" width="200" height="200" border="1" /><img
+            src="19092010_RIHK_Y11R01D_T06_04[1].jpg" width="200" height="200" border="1" /><img
+            src="24102010_RIHK_Y11R01D_02_T06[1].jpg" width="200" height="200" border="1" /><img
+            src="12092010_RIHK_Y11R01D_T31_02[1].jpg" width="200" height="200" border="1" /><img
+            src="10102010_RTLC_Y11R01D_01_T01[1].JPG" width="200" height="200" border="1" /><img
+            src="23122010_RIHK_Y10CWS2A_02_T31[1].jpg" width="320" height="240" /></p>
+      </td>
+    </tr>
+    <tr bgcolor="#FFFFCC">
+      <td height="470" valign="top" bgcolor="#FFFFFF" class="bodyblog"
+        style="padding-left: 50px; padding-right: 50px; border-left-color: #000; border-right-color: #000; background-color: #FF9; font-size: 24px;">
+        <p><span class="blogdate">22.10.2010</span><span class="blogsubheader">台北之旅</span></p>
+        <h1><span class="blogword">四天的行程在雨中度過了, 窗外的景物很模糊, 這裡很快就黑, 感到台灣好像一個大澳門, 市容較為簡陋, 人不算很多, 原來台灣是香港的35 倍而台北市已是香港的6 倍,
+            我相信今次只是走馬看花, 每處都只停一小時, 最難得是遇到故宮博物院 、101 大樓、中正紀念堂、和在郊野浸溫泉, 其實台灣真是一個寶島, 有好多嘢食!</span> </h1>
+        <p>
+          <object width="425" height="358">
+            <param name="movie" value="https://www.youtube-nocookie.com/v/3jT90FkOxtM?fs=1&amp;hl=en_US&amp;rel=0" />
+            <param name="allowFullScreen" value="true" />
+            <param name="allowscriptaccess" value="always" />
+            <embed src="https://www.youtube-nocookie.com/v/3jT90FkOxtM?fs=1&amp;hl=en_US&amp;rel=0"
+              type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425"
+              height="358"></embed>
+          </object>
+        </p>
+      </td>
+    </tr>
+    <tr bgcolor="#FFFFCC">
+      <td height="695" valign="top" bgcolor="#FFFFFF" class="bodyblog"
+        style="padding-left: 50px; padding-top: 50px; border-left-color: #000; border-right-color: #000; background-color: #FF9; font-size: 24px;">
+        <p><span class="blogdate">11.09.2010</span><span class="blogsubheader">雨天打足球</span></p>
+        <p class="blogword">今午要打區賽總決賽, 上兩星期已經贏了四場, 如果今次又取勝可以代表荃灣區出線。結果勝一場, 但最後輸了給啡衫隊, 獲得亞軍, 好在都有獎牌囉。這個獎真是得來不易, 淋雨淋足三個鐘,
+          自問也受不住!!</p>
+        <p class="blogword">之前他問我做咩可囉金牌, 今次他明白了, 原來要付出好多, 他看到隔離囉住個金, 黙黙望吓又望吓自己手上得個銀, 都一樣開心, 他好像想到金真係唔易囉, 要有實力, 自己還未夠呢!
+        </p>
+        <p>&nbsp;</p>
+        <p><img src="prize1.jpg" width="142" height="220" /><img src="prize6.jpg" width="171" height="220" /><img
+            src="prize3.jpg" width="282" height="220" /><img src="image/fprize.jpg" width="262" height="377" /></p>
+      </td>
+    </tr>
+    <tr bgcolor="#FFFFCC">
+      <td height="469" valign="top" bgcolor="#FFFFFF" class="bodyblog" style="background-color: #FF9; font-size: 24px;">
+        <p><span class="blogdate">11.08.2010</span><span class="blogsubheader">奇幻3D大宅</span></p>
+        <p><span class="blogword">之前在網上看到3D畫, 覺得香港為何沒有? 現在可在四幅來自名家的3D作品拍照, 真&nbsp;難&nbsp;得!</span></p>
+        <div style="background-color: #FF9; visibility:visible; width:460px; margin:auto">
+          <embed src="http://flash.picturetrail.com/pflicks/3/spflick.swf" quality="high"
+            flashvars="ql=2&src1=http://pic100.picturetrail.com/VOL1034/12850639/flicks/1/8422499" wmode="transparent"
+            bgcolor="#000000" width="419" height="313" name="3d_cube" align="left" allowscriptaccess="sameDomain"
+            style="height:350px;width:460px" type="application/x-shockwave-flash"></embed>
+        </div>
+        <p>&nbsp;</p>
+      </td>
+    </tr>
+    <tr bgcolor="#FFFFCC">
+      <td height="452" valign="top" bgcolor="#FFFFFF" class="bodyblog"
+        style="padding-left: 50px; padding-right: 50px; border-left-color: #000; border-right-color: #000; background-color: #FF9; font-size: 24px;">
+        <p><span class="blogdate">02.08.2010</span><span class="blogsubheader">動漫電玩節</span></p>
+        <p><span class="blogword">我們是第一次去動漫節, 同小朋友去原來可以行特別通道, 快好多,裡面都是熟悉的卡通人物。Lego館一定要去,砌成很多香港D嘢</span></p>
+        <p><span class="blogword"><span class="photoindex"><a href="PG25/index.htm"
+                class="photoindex">圖片</a></span>。</span></p>
+        <table border="1" cellspacing="0" cellpadding="1">
+          <tr>
+            <td><object width="300" height="300">
+                <param name="movie"
+                  value="https://www.youtube-nocookie.com/v/6hPmByjqIqU&amp;hl=en_US&amp;fs=1?rel=0" />
+                <param name="allowFullScreen" value="true" />
+                <param name="allowscriptaccess" value="always" />
+                <embed src="https://www.youtube-nocookie.com/v/6hPmByjqIqU&amp;hl=en_US&amp;fs=1?rel=0"
+                  type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="300"
+                  height="300"></embed>
+              </object></td>
+            <td><object width="300" height="300">
+                <param name="movie"
+                  value="https://www.youtube-nocookie.com/v/vo-dlswglFw&amp;hl=en_US&amp;fs=1?rel=0" />
+                <param name="allowFullScreen" value="true" />
+                <param name="allowscriptaccess" value="always" />
+                <embed src="https://www.youtube-nocookie.com/v/vo-dlswglFw&amp;hl=en_US&amp;fs=1?rel=0"
+                  type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="300"
+                  height="300"></embed>
+              </object></td>
+          </tr>
+        </table>
+        <div style="visibility:visible;width:390px;margin:auto;"> </div>
+        <p>&nbsp;</p>
+      </td>
+    </tr>
+    <tr bgcolor="#FFFFCC">
+      <td height="145" valign="top" bgcolor="#FFFFFF" class="bodyblog"
+        style="border-left-color: #000; border-right-color: #000; background-color: #FF9; font-size: 24px;">
+        <p><span class="blogdate">01.08.2010</span><span class="blogsubheader">彈弓飛人和閃轉霓裳</span></p>
+        <table border="1" cellspacing="0" cellpadding="1">
+          <tr>
+            <td><object width="300" height="300">
+                <param name="movie"
+                  value="https://www.youtube-nocookie.com/v/moU57rVqARk&amp;hl=en_US&amp;fs=1?rel=0" />
+                <param name="allowFullScreen" value="true" />
+                <param name="allowscriptaccess" value="always" />
+                <embed src="https://www.youtube-nocookie.com/v/moU57rVqARk&amp;hl=en_US&amp;fs=1?rel=0"
+                  type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="300"
+                  height="300"></embed>
+              </object></td>
+            <td><object width="300" height="300">
+                <param name="movie"
+                  value="https://www.youtube-nocookie.com/v/XNPSR8K_544&amp;hl=en_US&amp;fs=1?rel=0" />
+                <param name="allowFullScreen" value="true" />
+                <param name="allowscriptaccess" value="always" />
+                <embed src="https://www.youtube-nocookie.com/v/XNPSR8K_544&amp;hl=en_US&amp;fs=1?rel=0"
+                  type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="300"
+                  height="300"></embed>
+              </object></td>
+            <td><object width="300" height="300">
+                <param name="movie"
+                  value="https://www.youtube-nocookie.com/v/OSMf-UXI3G4&amp;hl=en_US&amp;fs=1?rel=0" />
+                <param name="allowFullScreen" value="true" />
+                <param name="allowscriptaccess" value="always" />
+                <embed src="https://www.youtube-nocookie.com/v/OSMf-UXI3G4&amp;hl=en_US&amp;fs=1?rel=0"
+                  type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="300"
+                  height="300"></embed>
+              </object></td>
+          </tr>
+        </table>
+        <p>&nbsp;</p>
+      </td>
+    </tr>
+    <tr bgcolor="#FFFFCC">
+      <td height="145" valign="top" bgcolor="#FFFFFF" class="bodyblog"
+        style="border-left-color: #000; border-right-color: #000; background-color: #FF9; font-size: 24px;">
+        <p><span class="blogdate">31.07.2010</span><span class="blogsubheader">叮噹來了!</span></p>
+        <p><span class="blogword">叮噹已四十年了, 館內許多展覽品都是從日本運來的, 最特別是參觀叮噹屋子, 非常有趣</span></p>
+        <p><span class="blogword"><a href="PG24/index.htm" class="photoindex"> 圖片</a>。</span></p>
+      </td>
+    </tr>
+    <tr bgcolor="#FFFFCC">
+      <td height="490" valign="top" bgcolor="#FFFFFF" class="bodyblog"
+        style="padding-left: 50px; padding-right: 50px; border-left-color: #000; border-right-color: #000; background-color: #FF9; font-size: 24px;">
+        <p><span class="blogdate">24.07.2010</span><span class="blogsubheader">玩機械人</span><img
+            src="09082010_RIHK_Y10MD02A_T6_04[1].jpg" width="120" height="90" /><img
+            src="12072010_RIHK_03_Y10MD02A_T02[1].jpg" width="120" height="90" /><img
+            src="19072010_RIHK_Y10MD02A_02_T01[1].jpg" width="120" height="90" /></p>
+        <p><span class="blogword">今個暑假Jeffrey參加了機械人班, 教他用光感應器、齒輪、馬達, 他很喜歡玩這些東西。我們到九龍灣綜合大樓一起玩, 要用廿分鐘自己砌車比賽, 我感到非常陌生,
+            從來未想到Lego可以走動, 幸好都能有車參賽!<a href="PG21/images/index1.htm" class="photoindex">圖片</a></span> </p>
+        <p>&nbsp;</p>
+        <p>
+          <object width="283" height="228">
+            <param name="movie" value="https://www.youtube-nocookie.com/v/q-gw9bn3Rp8&amp;hl=en_US&amp;fs=1?rel=0" />
+            <param name="allowFullScreen" value="true" />
+            <param name="allowscriptaccess" value="always" />
+            <embed src="https://www.youtube-nocookie.com/v/q-gw9bn3Rp8&amp;hl=en_US&amp;fs=1?rel=0"
+              type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="283"
+              height="228"></embed>
+          </object>
+          <object width="283" height="228">
+            <param name="movie" value="https://www.youtube-nocookie.com/v/XK9mux1fdHs&amp;hl=en_US&amp;fs=1?rel=0" />
+            <param name="allowFullScreen" value="true" />
+            <param name="allowscriptaccess" value="always" />
+            <embed src="https://www.youtube-nocookie.com/v/XK9mux1fdHs&amp;hl=en_US&amp;fs=1?rel=0" width="283"
+              height="228" type="application/x-shockwave-flash" allowscriptaccess="always"
+              allowfullscreen="true"></embed>
+          </object>
+        </p>
+      </td>
+    </tr>
+    <tr bgcolor="#FFFFCC">
+      <td height="358" valign="top" bgcolor="#FFFFFF" class="bodyblog"
+        style="border-left-color: #000; border-right-color: #000; border-top-style: none; background-color: #FF9; font-size: 24px;">
+        <p><span class="blogdate">06.07.2010</span> <span class="blogsubheader">踏滑板車</span></p>
+        <p><span class="blogword">放暑假了, 黃昏時 Jeffrey 就玩scooter, 比較輕便!</span></p><object width="332" height="247">
+          <param name="movie" value="https://www.youtube-nocookie.com/v/U9MXieCouFE&amp;hl=en_US&amp;fs=1?rel=0" />
+          <param name="allowFullScreen" value="true" />
+          <param name="allowscriptaccess" value="always" />
+          <embed src="https://www.youtube-nocookie.com/v/U9MXieCouFE&amp;hl=en_US&amp;fs=1?rel=0" width="332"
+            height="247" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true"></embed>
+        </object>
+      </td>
+    </tr>
+    <tr bgcolor="#FFFFCC">
+      <td height="427" valign="top" bgcolor="#FFFFFF" class="bodyblog"
+        style="border-left-color: #000; border-right-color: #000; background-color: #FF9; font-size: 24px;">
+        <p><span class="blogdate">06.06.2010</span> <span class="blogsubheader">新聞報導</span></p>
+        <table width="30%" height="271" border="0" align="center" cellpadding="0" cellspacing="10">
+          <tr>
+            <th scope="col">
+              <p>
+                <object width="360" height="280">
+                  <param name="movie" value="https://www.youtube-nocookie.com/v/afvnMOKJInQ&hl=zh_TW&fs=1&rel=0" />
+                  <param name="allowFullScreen" value="true" />
+                  <param name="allowscriptaccess" value="always" />
+                  <embed src="https://www.youtube-nocookie.com/v/afvnMOKJInQ&hl=zh_TW&fs=1&rel=0"
+                    type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="360"
+                    height="280"></embed>
+                </object>
+              </p>
+              <p>reporter</p>
+            </th>
+            <th scope="col">
+              <p>
+                <object width="360" height="280">
+                  <param name="movie" value="https://www.youtube-nocookie.com/v/fS70LKcClCk&hl=zh_TW&fs=1&rel=0" />
+                  <param name="allowFullScreen" value="true" />
+                  <param name="allowscriptaccess" value="always" />
+                  <embed src="https://www.youtube-nocookie.com/v/fS70LKcClCk&hl=zh_TW&fs=1&rel=0"
+                    type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="360"
+                    height="280"></embed>
+                </object>
+              </p>
+              <p>Camera man</p>
+            </th>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr bgcolor="#FFFFCC">
+      <td height="457" valign="top" bgcolor="#FFFFFF" class="bodyblog"
+        style="border-left-color: #000; border-right-color: #000; background-color: #FF9; font-size: 24px;">
+        <p><span class="blogdate">22.05.2010</span> <span class="blogsubheader">自己畫蛋糕</span></p>
+        <p><span class="blogword">就是在峄仔和家瑩生日中,我們 一起創作蛋糕的圖樣, 很有趣味!</span></p>
+        <table width="32%" height="334" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td height="334">
+              <p>
+                <object width="425" height="283">
+                  <param name="movie" value="https://www.youtube-nocookie.com/v/_oXslAvuNTc&hl=zh_TW&fs=1&rel=0" />
+                  <param name="allowFullScreen" value="true" />
+                  <param name="allowscriptaccess" value="always" />
+                  <embed src="https://www.youtube-nocookie.com/v/_oXslAvuNTc&hl=zh_TW&fs=1&rel=0"
+                    type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425"
+                    height="283"></embed>
+                </object>
+              </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr bgcolor="#FFFFCC">
+      <td height="375" valign="top" bgcolor="#FFFFFF" class="bodyblog"
+        style="padding-left: 50px; padding-right: 50px; background-color: #FF9; font-size: 12px; color: #033;">
+        <table width="30%" border="0" align="left" cellpadding="1" cellspacing="0">
+          <tr>
+            <td height="241">
+              <p><span
+                  style="border-top-color: #000; border-top-style: solid; border-top-width: medium; background-color: #FFF;"><span
+                    style="border-top-color: #000; border-top-style: solid; border-top-width: medium; background-color: #FFF;"><span
+                      style="border-top-color: #000; border-top-style: solid; border-top-width: medium; background-color: #FFF;"><span
+                        style="border-top-color: #000; border-top-style: solid; border-top-width: medium; background-color: #FFF;"><img
+                          src="IMG_0554-1.jpg" width="240" height="240" border="0" align="middle"
+                          usemap="#Map" /></span></span></span></span></p>
+            </td>
+            <td>&nbsp;</td>
+            <td><span
+                style="border-top-color: #000; border-top-style: solid; border-top-width: medium; background-color: #FFF;"><img
+                  src="IMG_0563-1.jpg" width="240" height="240" align="middle" /></span></td>
+          </tr>
+        </table>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>(請Click手看他們做D咩)</p>
+        <p><span class="blogdate">24.04.2010</span> <span class="blogsubheader">清明上河圖</span></p>
+        <span class="blogword">這幅畫長逾100呎,由28幅紙雕畫組成,接著就會送往上海博覽會展出,手工真是很細緻! Jeffrey有機會參與工作坊, 學做一幅卡通立體畫, 教師是講普通話,
+          他們都很奇怪他聽得懂呢!</span>
+      </td>
+    </tr>
+    <tr bgcolor="#FFFFCC">
+      <td height="462" valign="top" bgcolor="#FFFFFF" class="bodyblog" style="background-color: #FF9;"><span
+          class="blogdate">1８.04.2010</span>
+        <p class="blogsubheader">寶隆中心的 Paintball Game</p>
+        <p class="blogword">Joshwa 今年生日邀請 Jeffrey 到生日Party, 他們玩射 paintball,
+          要穿上全身裝備，每人可發１５０塊子彈，射中好像蚊虰，　他們很喜歡玩，　而且預約了暑假再玩呢！</p>
+        <span class="blogword"><img src="DSCN0760-1.jpg" width="277" height="259" /></span>
+      </td>
+    </tr>
+    <tr>
+      <td height="446" valign="top" class="bodyblog"
+        style="padding-left: 50px; padding-right: 50px; background-color: #FF9; color: #FFC;"><span
+          class="blogdate">04.04.2010</span><span class="blogsubheader"> 香港地質公園</span> <span
+          class="blogsubheader">Geopark</span>
+        <table width="59%" height="301" border="0" align="center" cellpadding="2">
+          <tr>
+            <td width="65%" height="297"><object width="358" height="284">
+                <param name="movie" value="https://www.youtube-nocookie.com/v/dcqGah6p0K4&hl=en_US&fs=1&rel=0" />
+                <param name="allowFullScreen" value="true" />
+                <param name="allowscriptaccess" value="always" />
+                <embed src="https://www.youtube-nocookie.com/v/dcqGah6p0K4&hl=en_US&fs=1&rel=0"
+                  type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="358"
+                  height="284"></embed>
+              </object></td>
+            <td width="35%"><object width="329" height="286">
+                <param name="movie" value="https://www.youtube-nocookie.com/v/Qm44Pd_HAY4&hl=en_US&fs=1&rel=0" />
+                <param name="allowFullScreen" value="true" />
+                <param name="allowscriptaccess" value="always" />
+                <embed src="https://www.youtube-nocookie.com/v/Qm44Pd_HAY4&hl=en_US&fs=1&rel=0"
+                  type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="329"
+                  height="286"></embed>
+              </object></td>
+          </tr>
+        </table>
+        <p class="blogword">我們早上7:30出發到大學站, 下著微雨, 要步行到碼頭, 向印塘海峽出發。</p>
+        <span class="blogword">香港有六個地質公園, 今次我們去看了三個, 有赤印(沿岸的石都是赤色)、有荔枝窩( 島上有棵通心樹、五指樟和仙藤)，三就是東平洲的頁岩, 雖然船程要三小時, 令人頭昏腦脹,
+          但是這樣的奇景真是難得一見, 原來香港都有原始的風景, 叫人驚訝!!<a href="PG20/index.htm"><span class="photoindex"> 圖片</span></a></span>
+      </td>
+    </tr>
+    <tr bgcolor="#FFFF99">
+      <td height="552" valign="top" bgcolor="#FFFF99" class="bodyblog"
+        style="border-top-style: none; background-color: #FF9;"><span class="blogdate">16.03.2010</span> <span
+          class="blogsubheader">Jeffrey 三日兩夜Camp</span><img src="image/camp3.jpg" width="205" height="167" /><span
+          class="blogsubheader"><img src="image/camp2.jpg" width="259" height="168" /></span>
+        <p class="blogword">他出門時話有D驚, 回來就話好玩! 不過有口爛、手損、個身臭, 晚上有人拷門又驚, 半夜三點起咗身, 他真很倦!
+          <script></script>
+          他喜歡在家多過去 camp, 這裏許多嘢要自己做, 我覺得他變得聽話了。
+        </p>
+        <table width="83%" height="279" border="0" cellpadding="2">
+          <tr>
+            <td width="33%" height="263"><object width="303" height="264">
+                <param name="movie"
+                  value="https://www.youtube.com/v/PfDg0QxbQrc&amp;hl=en_US&amp;fs=1&amp;rel=0&amp;color1=0x3a3a3a&amp;color2=0x999999" />
+                <param name="allowFullScreen" value="true" />
+                <param name="allowscriptaccess" value="always" />
+                <embed
+                  src="https://www.youtube.com/v/PfDg0QxbQrc&amp;hl=en_US&amp;fs=1&amp;rel=0&amp;color1=0x3a3a3a&amp;color2=0x999999"
+                  width="303" height="264" type="application/x-shockwave-flash" allowscriptaccess="always"
+                  allowfullscreen="true"
+                  movie="https://www.youtube.com/v/PfDg0QxbQrc&amp;hl=en_US&amp;fs=1&amp;rel=0&amp;color1=0x3a3a3a&amp;color2=0x999999"></embed>
+              </object></td>
+            <td width="31%"><object width="310" height="267">
+                <param name="movie"
+                  value="https://www.youtube-nocookie.com/v/c8-K1TfvApI&amp;hl=en_US&amp;fs=1&amp;rel=0&amp;color1=0x402061&amp;color2=0x9461ca" />
+                <param name="allowFullScreen" value="true" />
+                <param name="allowscriptaccess" value="always" />
+                <embed
+                  src="https://www.youtube-nocookie.com/v/c8-K1TfvApI&amp;hl=en_US&amp;fs=1&amp;rel=0&amp;color1=0x402061&amp;color2=0x9461ca"
+                  type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="310"
+                  height="267"></embed>
+              </object></td>
+            <td width="36%"><object width="313" height="279">
+                <param name="movie"
+                  value="https://www.youtube.com/v/BbOVBAQlAYc&amp;hl=en_US&amp;fs=1&amp;rel=0&amp;color1=0x3a3a3a&amp;color2=0x999999" />
+                <param name="allowFullScreen" value="true" />
+                <param name="allowscriptaccess" value="always" />
+                <embed
+                  src="https://www.youtube.com/v/BbOVBAQlAYc&amp;hl=en_US&amp;fs=1&amp;rel=0&amp;color1=0x3a3a3a&amp;color2=0x999999"
+                  width="313" height="279" type="application/x-shockwave-flash" allowscriptaccess="always"
+                  allowfullscreen="true"></embed>
+              </object></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr bgcolor="#FFFFCC">
+      <td height="513" class="bodyblog" style="border-top-color: #999; border-top-style: none; background-color: #FF9;">
+        <p><span class="blogdate">30.01.2010</span> <span class="blogsubheader">西九海濱長廊</span></p>
+        <p class="blogword">我們到了西九踏單車, 原來這地就近圓方ice rink 出口, 這裏裡很幽靜, 最特別是在這市區裏有一條彎曲望海的單車徑, Jeffrey 很開心, 他未曾在單車徑玩過,
+          我們還看到直升機下降, 真是很大塵!</p>
+        <span style="background-color: #FFF"> </span><span
+          style="border-top-color: #999; border-top-style: none; background-color: #FFF;"><span
+            style="border-top-color: #999; border-top-style: none; background-color: #FFF;"><span
+              style="border-top-color: #999; border-top-style: none; background-color: #FFF;"><span
+                style="border-top-color: #999; border-top-style: none; background-color: #FFF;"><span
+                  style="border-top-color: #999; border-top-style: none; background-color: #FFF;"><span
+                    style="border-top-color: #999; border-top-style: none; background-color: #FFF;"><span
+                      style="border-top-color: #999; border-top-style: none; background-color: #FFF;">
+                      <object width="290" height="293">
+                        <param name="movie" value="https://www.youtube.com/v/dnj2cwxHtz4&hl=en_US&fs=1&" />
+                        <param name="allowFullScreen" value="true" />
+                        <param name="allowscriptaccess" value="always" />
+                        <embed src="https://www.youtube.com/v/dnj2cwxHtz4&hl=en_US&fs=1&"
+                          type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true"
+                          width="290" height="293"></embed>
+                      </object>
+                    </span></span></span></span></span></span></span><embed
+          src="http://flash.picturetrail.com/pflicks/3/spflick.swf" quality="high"
+          flashvars="ql=2&src1=http://pic100.picturetrail.com/VOL1034/12850639/flicks/1/7946048" wmode="transparent"
+          bgcolor="#000000" width="274" height="237" name="magnifier" align="bottom" allowscriptaccess="sameDomain"
+          style="height:300px; width:300px" type="application/x-shockwave-flash"></embed>
+      </td>
+    </tr>
+    <tr bgcolor="#FFFFCC">
+      <td height="536" bgcolor="#FFFFFF" class="bodyblog" style="background-color: #FF9;">
+        <p><span class="blogdate">16.01.2010</span> <span class="blogsubheader">上山頂</span></p>
+        <p class="blogword">下午我帶 Jeffrey 乘坐 Peak Tram 到山頂去,剛剛又遇上高鐵示威, 我們便去看看, 發覺都很和平, 山頂的夜影仍然很迷人, 但很冷<span
+            style="background-color: #FFF"></span>, 媽又打電話來話山下很亂, 晚上親眼看到十多輛警車和防衛警察, 才感到心寒! 便立即回家。</p><embed
+          src="http://flash.picturetrail.com/pflicks/3/spflick.swf" width="426" height="274" align="middle"
+          style="height:350px;width:460px" quality="high"
+          flashvars="ql=2&src1=http://pic100.picturetrail.com/VOL1034/12850639/flicks/1/7946099" wmode="transparent"
+          bgcolor="#000000" name="zoom_and_fade" allowscriptaccess="sameDomain" type="application/x-shockwave-flash"
+          scale="noborder"></embed>
+      </td>
+    </tr>
+    <tr bgcolor="#FFFFCC">
+      <td height="495" bgcolor="#FFFFFF" class="bodyblog" style="background-color: #FF9;">
+        <p><span class="blogdate">25.12.2009</span> <span class="blogsubheader">聖誕節有火雞食</span></p>
+        <embed src="http://flash.picturetrail.com/pflicks/3/spflick.swf" width="305" height="292" align="bottom"
+          style="height:420px; width:400px" quality="high"
+          flashvars="ql=2&src1=http://pic80.picturetrail.com/VOL1923/12789464/flicks/1/7882383" wmode="transparent"
+          bgcolor="#000000" name="radial" allowscriptaccess="sameDomain" type="application/x-shockwave-flash"
+          scale="noborder"></embed><object width="381" height="332" align="bottom">
+          <param name="movie" value="https://www.youtube.com/v/e2r2QArPLCk&hl=en_US&fs=1&" />
+          <param name="allowFullScreen" value="true" />
+          <param name="allowscriptaccess" value="always" />
+          <embed src="https://www.youtube.com/v/e2r2QArPLCk&hl=en_US&fs=1&" width="381" height="332" align="bottom"
+            type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true"></embed>
+        </object>
+      </td>
+    </tr>
+    <tr bgcolor="#FFFFCC">
+      <td height="531" bgcolor="#FFFFFF" class="bodyblog" style="background-color: #FF9;"><span
+          class="blogdate">23.12.2009</span> <span class="blogsubheader">濕地公園</span>
+        <p class="blogword">這裡要用望遠鏡才能看到鳥, 四處都是水, 感覺是在水田上行走, 太陽很接近大地, 很有趣, 我們見到小紅蟹和水蓮, 貝貝也住在這裡, 裏面有大家樂, 好似一個飯堂, 我們吃飯後,
+          才回家去。</p>
+        <embed src="http://flash.picturetrail.com/pflicks/3/spflick.swf" width="509" height="336" align="middle"
+          style="height:410px;width:540px" quality="high"
+          flashvars="ql=2&src1=http://pic80.picturetrail.com/VOL1923/12789464/flicks/1/7882435" wmode="transparent"
+          bgcolor="#000000" name="sequence" allowscriptaccess="sameDomain" type="application/x-shockwave-flash"
+          scale="noborder"></embed>
+      </td>
+    </tr>
+    <tr bgcolor="#FFFFCC">
+      <td height="555" bgcolor="#FFFFFF" class="bodyblog" style="background-color: #FF9;">
+        <p><span class="blogdate">19.12.2009</span>
+          <span class="blogsubheader">科學館</span>
+        </p>
+        <p class="blogword">在中国野生動物標本展中, 見到已絕種和極卮動物,有中華鱘、雪豹、金鵰和揚子鱷, 栩栩如生, 很可怕!</p>
+        <embed src="http://flash.picturetrail.com/pflicks/3/spflick.swf" quality="high"
+          flashvars="ql=2&src1=http://pic80.picturetrail.com/VOL1923/12789464/flicks/1/7882529" wmode="transparent"
+          bgcolor="#000000" width="452" height="333" name="photo_peel" align="left" allowscriptaccess="sameDomain"
+          style="height:410px; width:500px" type="application/x-shockwave-flash"></embed>
+      </td>
+    </tr>
+    <tr bgcolor="#FFFFCC">
+      <td height="420" bgcolor="#FFFFFF" class="bodyblog"><span class="blogdate">12.12.2009 </span>
+        <span class="blogsubheader">藝術嘉年華</span>
+        <p class="blogword">今天我們到文化中心看藝術表演, 很精彩, jeffrey 很喜歡打拍子,所以都很開心, 這次是他第一次看大型表演。</p><embed
+          src="http://flash.picturetrail.com/pflicks/3/spflick.swf" quality="high"
+          flashvars="ql=2&src1=http://pic100.picturetrail.com/VOL1034/12850639/flicks/1/7882505" wmode="transparent"
+          bgcolor="#000000" width="514" height="313" name="liquid" align="middle" allowscriptaccess="sameDomain"
+          style="height:400px; width:540px" type="application/x-shockwave-flash"></embed>
+      </td>
+    </tr>
+    <tr>
+      <td height="404" class="bodyblog"><span class="blogdate">20.11.2009</span><span class="blogsubheader"> Light
+          Dance</span>
+        <p>
+          <object width="271" height="261">
+            <param name="movie" value="https://www.youtube.com/v/OJH70hIxANE&amp;hl=en_US&amp;fs=1&amp;" />
+            <param name="allowFullScreen" value="true" />
+            <param name="allowscriptaccess" value="always" />
+            <embed src="https://www.youtube.com/v/OJH70hIxANE&amp;hl=en_US&amp;fs=1&amp;"
+              type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="271"
+              height="261"></embed>
+          </object>
+          <object width="249" height="260">
+            <param name="movie" value="https://www.youtube.com/v/7II4mowv-yQ&amp;hl=en_US&amp;fs=1&amp;" />
+            <param name="allowFullScreen" value="true" />
+            <param name="allowscriptaccess" value="always" />
+            <embed src="https://www.youtube.com/v/7II4mowv-yQ&amp;hl=en_US&amp;fs=1&amp;"
+              type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="249"
+              height="260"></embed>
+          </object>
+          <img src="image/IMG_7796-1.jpg" width="244" height="251" />
+        </p>
+        <p class="blogword">晚上要表演, 是否很駭人的樣子呢, 全班都化成黑黝黝的, 用這方法表達出光。旁邊是上年的表演African Song, 他做一隻斑馬, 又要講嘢。</p>
+      </td>
+    </tr>
+    <tr>
+      <td height="408" class="bodyblog">
+        <p><a href="PG13/index.htm" class="blogdate"> <span class="blogdate">23.10.2009</span></a> <span
+            class="blogsubheader">Noah's Park</span></p>
+        <p><img src="image/IMG_7562-1.jpg" width="266" height="244" class="blogphoto" />
+          <object width="288" height="257">
+            <param name="movie" value="https://www.youtube.com/v/GLzQGUwvGuI&amp;hl=en_US&amp;fs=1&amp;" />
+            <param name="allowFullScreen" value="true" />
+            <param name="allowscriptaccess" value="always" />
+            <embed src="https://www.youtube.com/v/GLzQGUwvGuI&amp;hl=en_US&amp;fs=1&amp;"
+              type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="288"
+              height="257"></embed>
+          </object>
+        </p>
+        <p class="blogword">我們到了馬灣的挪亞方舟, 首先要購買入場券, 地方玩樂主要是在荒舟裏, 這裡較適合小朋友, 學術性高, 動物很真很有趣, 但方舟內不可拍照。</p><span
+          class="photoindex">圖片</span>
+      </td>
+    </tr>
+  </table>
+  <table width="100%" height="365" border="0" cellpadding="0" cellspacing="0">
+    <tr style="font-size: 36px;">
+      <td height="359" class="bodyblog">
+        <p><a href="PG12-1/index.htm" class="blogdate"><span class="blogdate">26.10.2009</span></a><span
+            class="blogsubheader">日經活動 </span></p>
+        <object width="330" height="222">
+          <param name="movie" value="https://www.youtube.com/v/QgcUx8FBvNw&hl=en_US&fs=1&" />
+          <param name="allowFullScreen" value="true" />
+          <param name="allowscriptaccess" value="always" />
+          <embed src="https://www.youtube.com/v/QgcUx8FBvNw&hl=en_US&fs=1&" type="application/x-shockwave-flash"
+            allowscriptaccess="always" allowfullscreen="true" width="330" height="222"></embed>
+        </object>
+        <span class="photoindex">圖片</span>
+        <p class="blogword">一年一次的慈善日中, 我們參觀了舞蹈表演和拍賣, 又有攤位擺賣, 他們都是說日語, 有的是學生, 有的是日本老師, 雖然我們不太明白, 但好像到了日本呢!</p>
+        <p class="blogword">&nbsp;</p>
+      </td>
+    </tr>
+  </table>
+  <table width="100%" border="0" cellspacing="0">
+    <tr style="padding-right: 50px; padding-left: 50px;">
+      <td height="283" class="bodyblog">
+        <p><span class="blogdate">03.10.09</span><span class="blogsubheader">中秋節</span></p>
+        <p align="left" class="blogword">今年的中秋節有很多花燈, 我們到了西鐵 、維園和尖沙咀看燈飾, 最特別是在晚上十一時到樓下玩, 這裡今年很熱鬧, 四處都是燈火,
+          我們也玩火,可惜沒有預備燈籠呢! <img src="image/moonfestival 001-1.jpg" width="252" height="224" align="left" g" /></p>
+        <p align="left" class="blogword"><strong class="photoindex" style="font-size: large">圖片</strong><img
+            src="image/cute/086.JPG" width="87" height="105" /></p>
+      </td>
+    </tr>
+  </table>
+  <table width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td height="355" class="bodyblog">
+        <p class=""><span class="blogdate">10.08.09 </span><span class="blogsubheader">沙田新城市廣場</span></p>
+        <span class="blogdate"><img src="image/games/shatin01.jpg" width="216" height="275" /></span><span
+          class="blogword">後面是用紙砌成的, 高於一個人, 非常特別。</span>
+        <p class="photoindex">圖片</p>
+        <p class="photoindex">&nbsp;</p>
+      </td>
+    </tr>
+    <tr style="border-bottom-color: #000; border-bottom-style: solid; border-bottom-width: medium;">
+      <td height="310" class="bodyblog">
+        <p class="chinese1"><span class="blogdate">02.08.09 </span><span class="blogsubheader">踏單車</span></p>
+        <p><span class="chinese6"><strong><span class="blogphoto"><img src="image/games/IMG_7058.JPG" width="270"
+                  height="219" align="middle" /></span></strong></span><img src="image/cute/BAJ010349.JPG" width="126"
+            height="89" /><span class="chinese6"><strong>
+              <object width="279" height="230" align="middle">
+                <param name="movie" value="https://www.youtube.com/v/LysaFTJcwVo&amp;hl=en_US&amp;fs=1&amp;" />
+                <param name="allowFullScreen" value="true" />
+                <param name="allowscriptaccess" value="always" />
+                <embed src="https://www.youtube.com/v/LysaFTJcwVo&amp;hl=en_US&amp;fs=1&amp;" width="279" height="230"
+                  align="middle" type="application/x-shockwave-flash" allowscriptaccess="always"
+                  allowfullscreen="true"></embed>
+              </object>
+            </strong></span></p>
+        <p class="blogword"><strong>今天 Jeffrey 终於學識踏單車了,當然很興奮, 他在一有時間就到樓下玩,曾經反了幾次車啦!</strong></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="bodyblog">
+        <p><span align="left" class="blogdate">07.04.09 </span>
+          <span align="left" class="blogsubheader">科學館</span>
+        </p>
+        <p><img src="image/games/scary01.jpg" width="276" height="217" /><span class="blogword">這個樣真是很有趣, 驚嚇!</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td height="354" class="bodyblog">
+        <p class="chinese1"><span class="chinese4"><span class="blogdate">17.04.09</span></span><span class="chinese4">
+            <span class="blogsubheader">溜冰場</span></span></p>
+        <p class="blogword">今天我們到了九龍站的 ice rink, 這裡都很靜, 雖然沒有又一城的光猛,玩了四十塊錢,記得這裡是用octopus 找數, 不是以 section 計。</p>
+        <img src="image/games/stanley 129.jpg" width="277" height="215" align="bottom" />
+        <object width="260" height="217">
+          <param name="movie" value="https://www.youtube.com/v/uSUh_Y8DnIE&hl=en_US&fs=1&" />
+          <param name="allowFullScreen" value="true" />
+          <param name="allowscriptaccess" value="always" />
+          <embed src="https://www.youtube.com/v/uSUh_Y8DnIE&hl=en_US&fs=1&" type="application/x-shockwave-flash"
+            allowscriptaccess="always" allowfullscreen="true" width="260" height="217"></embed>
+        </object>
+      </td>
+    </tr>
+    <tr>
+      <td height="340" valign="middle" class="bodyblog" style="" o">
+        <p><span class="blogdate">11.04.09 </span><span class="blogsubheader">赤柱一遊</span>
 
-<map name="Map" id="Map">
-  <area shape="circle" coords="120,160,24" href="image/ching.jpg" />
-  <area shape="circle" coords="123,129,6" href="#" />
-  <area shape="circle" coords="136,132,9" href="#" />
-</map>
+        <p><span class="blogword"><img src="image/games/stanley 02.jpg" width="221" height="233" />
+            <object width="252" height="234" align="top">
+              <param name="movie" value="https://www.youtube.com/v/porgQ0zALko&amp;hl=en_US&amp;fs=1&amp;" />
+              <param name="allowFullScreen" value="true" />
+              <param name="allowscriptaccess" value="always" />
+              <embed src="https://www.youtube.com/v/porgQ0zALko&amp;hl=en_US&amp;fs=1&amp;" width="252" height="234"
+                align="top" type="application/x-shockwave-flash" allowscriptaccess="always"
+                allowfullscreen="true"></embed>
+            </object>
+        </p><span class="blogword">我們坐了很
+
+          好耐車終於來到赤柱, 這裡地方很小, 不是想像中美麗! <span class="photoindex">圖片</span></span>
+      </td>
+    </tr>
+    <tr valign="top">
+      <td height="568" valign="top" class="bodyblog">
+        <p><span class="blogdate">2.11.08</span><span class="blogsubheader">韓國一遊</span> <a name="leaves"
+            id="leaves"></a></p>
+        <table width="41%" height="327" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td><object width="448" height="261" align="absmiddle">
+                <param name="movie" value="https://www.youtube-nocookie.com/v/sNx2mSjt0Js&hl=en_US&fs=1&rel=0" />
+                <param name="allowFullScreen" value="true" />
+                <param name="allowscriptaccess" value="always" />
+                <embed src="https://www.youtube-nocookie.com/v/sNx2mSjt0Js&hl=en_US&fs=1&rel=0" width="448" height="261"
+                  align="absmiddle" type="application/x-shockwave-flash" allowscriptaccess="always"
+                  allowfullscreen="true"></embed>
+              </object></td>
+          </tr>
+        </table>
+        <table width="82%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="305"><img src="newyearlion-1.jpg" width="332" height="291" /></td>
+            <td><img src="newyearlion 002-1.jpg" width="377" height="290" /></td>
+            <td><img src="newyearlion 003-1.jpg" width="373" height="290" /></td>
+          </tr>
+        </table>
+        <p class="yout">&nbsp;</p>
+        <p class="blogword">其實上年已想到韓國,但因 passport 問題, 始終沒有去。在網上得知韓國團D導遊很差，臉黑迫人買嘢，韓國人又不喜歡中國人，地方很悶，
+          加上 Jeffrey 要坐零晨機，食物天氣不知怎樣，假期又有功課，考慮很久，終於 Edward 決定報團，初時我們不是參加這團，現在的團是我們的第二選擇。結果，這旅程玩很開心和很難忘! </p>
+        <p class="blogword">我想告訴大家到韓國玩一定要注意幾點 : </p>
+        <p class="blogword">1)團種很多，一定要明白自己想看什麼，最好選擇不要落機立即游泳, 不要購物多，不要太多運動, 不過其實很難, 因為領隊會調動活動的次序。<br
+            style="background-color: #CFC;" />
+          2) 因為韓國以零晨機為主，要準備一袋嘢有水、有葯、毛巾牙刷和
+          厚衣，一落機便可立即由行李箱取回。<br />
+          3) 不要因購物而去，香港什麼都有，購物盡量不要講價，因言語不通，
+          太花時間，梨太院、東大門不去也罷。<br />
+          4) 不要要求太高，韓國不是日本，不是香港，它有一種田園風味，感
+          覺很舒服。<br />
+          5) 最好不要貪平，一定要選擇大旅行社, 因為食物的質素很重要,
+          又不會迫你買太多嘢。<br />
+          6) 可考慮玩D新建的設施，會開心D !<br />
+          7) 如果去玩水上樂園，最好穿長袖衣，室外和水很冻的。<br />
+          8) 韓國的溫度應該接近 &quot;最高溫度&quot; 。</p>
+        <p class="blogword">永安香港的Sammy, 韓國的Snoopy，住在韓國的Dormond 都非常好，
+          我們真是感到很幸運可以參加他們的團，希望下次可與他們在韓國滑雪!</p>
+        <p class="blogword"><a href="PG18/index.htm" class="photoindex">圖片</a></p>
+      </td>
+    </tr>
+  </table>
+
+  <map name="Map" id="Map">
+    <area shape="circle" coords="120,160,24" href="image/ching.jpg" />
+    <area shape="circle" coords="123,129,6" href="#" />
+    <area shape="circle" coords="136,132,9" href="#" />
+  </map>
 </body>
+
 </html>
