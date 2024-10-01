@@ -1,0 +1,236 @@
+App.progressCountTotal = 29;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/moon1/moonfestival 004_JPG.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'moonfestival 004_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 004_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 004_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 004_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 004_JPG_jpg.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 004_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 004_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/moon1/moonfestival 008_JPG.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'moonfestival 008_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 008_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 008_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 008_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 008_JPG_jpg.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 008_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 008_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/moon1/moonfestival 055_JPG.jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'moonfestival 055_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 055_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 055_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 055_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 055_JPG_jpg.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 055_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 055_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/moon1/moonfestival 056_JPG.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'moonfestival 056_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 056_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 056_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 056_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 056_JPG_jpg.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 056_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 056_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/moon1/moonfestival 059_JPG.jpg');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'moonfestival 059_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 059_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 059_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 059_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 059_JPG_jpg.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 059_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 059_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/moon1/moonfestival 060 (2)_JPG.jpg');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'moonfestival 060 (2)_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 060 (2)_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 060 (2)_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 060 (2)_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 060 (2)_JPG_jpg.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 060 (2)_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 060 (2)_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/moon1/moonfestival 067 (2)_JPG.jpg');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'moonfestival 067 (2)_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 067 (2)_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 067 (2)_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 067 (2)_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 067 (2)_JPG_jpg.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 067 (2)_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 067 (2)_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/moon1/moonfestival 071_JPG.jpg');
+App.progressCountCurrent = 8;
+App.batchStatusString = 'moonfestival 071_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 071_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 071_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 071_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 071_JPG_jpg.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 071_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 071_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/moon1/moonfestival 072 (2)_JPG.jpg');
+App.progressCountCurrent = 9;
+App.batchStatusString = 'moonfestival 072 (2)_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 072 (2)_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 072 (2)_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 072 (2)_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 072 (2)_JPG_jpg.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 072 (2)_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 072 (2)_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/moon1/moonfestival 091 (2)_JPG.jpg');
+App.progressCountCurrent = 10;
+App.batchStatusString = 'moonfestival 091 (2)_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 091 (2)_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 091 (2)_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 091 (2)_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 091 (2)_JPG_jpg.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 091 (2)_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 091 (2)_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/moon1/moonfestival 097_JPG.jpg');
+App.progressCountCurrent = 11;
+App.batchStatusString = 'moonfestival 097_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 097_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 097_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 097_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 097_JPG_jpg.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 097_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 097_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/moon1/moonfestival 098_JPG.jpg');
+App.progressCountCurrent = 12;
+App.batchStatusString = 'moonfestival 098_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 098_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 098_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 098_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 098_JPG_jpg.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 098_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 098_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/moon1/moonfestival 102_JPG.jpg');
+App.progressCountCurrent = 13;
+App.batchStatusString = 'moonfestival 102_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 102_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 102_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 102_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 102_JPG_jpg.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 102_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 102_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/moon1/moonfestival 104_JPG.jpg');
+App.progressCountCurrent = 14;
+App.batchStatusString = 'moonfestival 104_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 104_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 104_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 104_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 104_JPG_jpg.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 104_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 104_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/moon1/moonfestival 108 (2)_JPG.jpg');
+App.progressCountCurrent = 15;
+App.batchStatusString = 'moonfestival 108 (2)_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 108 (2)_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 108 (2)_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 108 (2)_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 108 (2)_JPG_jpg.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 108 (2)_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 108 (2)_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/moon1/moonfestival 108_JPG.jpg');
+App.progressCountCurrent = 16;
+App.batchStatusString = 'moonfestival 108_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 108_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 108_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 108_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 108_JPG_jpg.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 108_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 108_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/moon1/moonfestival 110_JPG.jpg');
+App.progressCountCurrent = 17;
+App.batchStatusString = 'moonfestival 110_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 110_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 110_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 110_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 110_JPG_jpg.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 110_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 110_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/moon1/moonfestival 114 (2)_JPG.jpg');
+App.progressCountCurrent = 18;
+App.batchStatusString = 'moonfestival 114 (2)_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 114 (2)_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 114 (2)_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 114 (2)_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 114 (2)_JPG_jpg.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 114 (2)_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 114 (2)_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/moon1/moonfestival 116_JPG.jpg');
+App.progressCountCurrent = 19;
+App.batchStatusString = 'moonfestival 116_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 116_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 116_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 116_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 116_JPG_jpg.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 116_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 116_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/moon1/moonfestival 125_JPG.jpg');
+App.progressCountCurrent = 20;
+App.batchStatusString = 'moonfestival 125_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 125_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 125_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 125_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 125_JPG_jpg.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 125_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 125_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/moon1/moonfestival 156_JPG.jpg');
+App.progressCountCurrent = 21;
+App.batchStatusString = 'moonfestival 156_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 156_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 156_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 156_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 156_JPG_jpg.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 156_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 156_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/moon1/moonfestival 157_JPG.jpg');
+App.progressCountCurrent = 22;
+App.batchStatusString = 'moonfestival 157_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 157_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 157_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 157_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 157_JPG_jpg.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 157_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 157_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/moon1/moonfestival 160_JPG.jpg');
+App.progressCountCurrent = 23;
+App.batchStatusString = 'moonfestival 160_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 160_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 160_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 160_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 160_JPG_jpg.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 160_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 160_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/moon1/moonfestival 161_JPG.jpg');
+App.progressCountCurrent = 24;
+App.batchStatusString = 'moonfestival 161_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 161_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 161_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 161_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 161_JPG_jpg.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 161_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 161_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/moon1/moonfestival 162_JPG.jpg');
+App.progressCountCurrent = 25;
+App.batchStatusString = 'moonfestival 162_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 162_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 162_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 162_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 162_JPG_jpg.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 162_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 162_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/moon1/moonfestival 163_JPG.jpg');
+App.progressCountCurrent = 26;
+App.batchStatusString = 'moonfestival 163_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 163_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 163_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 163_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 163_JPG_jpg.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 163_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 163_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/moon1/moonfestival 167_JPG.jpg');
+App.progressCountCurrent = 27;
+App.batchStatusString = 'moonfestival 167_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 167_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 167_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 167_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 167_JPG_jpg.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 167_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 167_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/moon1/moonfestival 168_JPG.jpg');
+App.progressCountCurrent = 28;
+App.batchStatusString = 'moonfestival 168_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 168_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 168_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 168_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 168_JPG_jpg.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 168_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 168_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/moon1/moonfestival 170_JPG.jpg');
+App.progressCountCurrent = 29;
+App.batchStatusString = 'moonfestival 170_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 170_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 170_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/images/moonfestival 170_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 170_JPG_jpg.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 170_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG5-1/thumbnails/moonfestival 170_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+'done';

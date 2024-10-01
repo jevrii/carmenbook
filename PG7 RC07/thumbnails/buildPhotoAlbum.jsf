@@ -1,0 +1,20 @@
+App.progressCountTotal = 2;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver/image/school07/rchk07 011.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'rchk07 011.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG7 RC07/images/rchk07 011_jpg.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG7 RC07/images/rchk07 011_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG7 RC07/images/rchk07 011_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG7 RC07/thumbnails/rchk07 011_jpg.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG7 RC07/thumbnails/rchk07 011_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG7 RC07/thumbnails/rchk07 011_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver/image/school07/rchk07 013.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'rchk07 013.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG7 RC07/images/rchk07 013_jpg.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG7 RC07/images/rchk07 013_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG7 RC07/images/rchk07 013_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG7 RC07/thumbnails/rchk07 013_jpg.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG7 RC07/thumbnails/rchk07 013_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG7 RC07/thumbnails/rchk07 013_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+'done';

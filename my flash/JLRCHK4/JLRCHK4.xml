@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flash_parameters copyright="sothink">
+	<preferences>
+		<global>
+			<basic_property movieWidth="660" movieHeight="500" startAutoPlay="true" decoration="skin/love1.swf" backgroundColor="0x005080" hideAdobeMenu="false" photoDynamicShow="true" enableURL="true" transitionArray=""/>
+			<title_property showTitle="true" photoTitleColor="0xff0000" backgroundColor="0xffffff" alpha="50" autoHide="true"/>
+			<music_property path="res/sound36.mp3" stream="true" loop="true"/>
+			<photo_property numThumbs="8" photoWidth="480" photoHeight="360" topPadding="14" bottomPadding="79" leftPadding="33" rightPadding="55"/>
+			<description_property backgroundColor="0xffffff" backgroundAlpha="30" color="0xff0000" size="18"/>
+		</global>
+		<thumbnail>
+			<basic_property showPrview="true" buttonColor="0xffffff" borderColor="0xffffff" currentBorderColor="0xffffff"/>
+		</thumbnail>
+	</preferences>
+	<album>
+		<slide jpegURL="thumbs/thumb_moonfestival 112 (4).jpg" d_URL="photo/moonfestival 112 (4).jpg" transition="2T61" panzoom="1" URLTarget="0" phototime="2" url="http://" title="http_imgload"/><slide jpegURL="thumbs/thumb_IMG_4972(1).jpg" d_URL="photo/IMG_4972(1).jpg" transition="39" panzoom="1" URLTarget="0" phototime="2" url="http://www.sothink.com/" title="http_imgload"/><slide jpegURL="thumbs/thumb_moonfestival 112 (5).jpg" d_URL="photo/moonfestival 112 (5).jpg" transition="17" panzoom="1" URLTarget="0" phototime="2" url="http://www.sothink.com/" title="http_imgload"/><slide jpegURL="thumbs/thumb_moonfestival 112 (6).jpg" d_URL="photo/moonfestival 112 (6).jpg" transition="45" panzoom="1" URLTarget="0" phototime="2" url="http://www.sothink.com/" title="http_imgload"/><slide jpegURL="thumbs/thumb_stanley 118.jpg" d_URL="photo/stanley 118.jpg" transition="2T26" panzoom="1" URLTarget="0" phototime="2" url="http://www.sothink.com/" title="http_imgload"/><slide jpegURL="thumbs/thumb_IMG_5123test.jpg" d_URL="photo/IMG_5123test.jpg" transition="2T42" panzoom="1" URLTarget="0" phototime="2" url="http://www.sothink.com/" title="http_imgload"/><slide jpegURL="thumbs/thumb_IMG_5130(1)_JPG.jpg" d_URL="photo/IMG_5130(1)_JPG.jpg" transition="2T57" panzoom="1" URLTarget="0" phototime="2" url="http://www.sothink.com/" title="http_imgload"/><slide jpegURL="thumbs/thumb_IMG_0049(2).jpg" d_URL="photo/IMG_0049(2).jpg" transition="2T49" panzoom="1" URLTarget="0" phototime="2" url="http://www.sothink.com/" title="http_imgload"/><slide jpegURL="thumbs/thumb_school flag.jpg" d_URL="photo/school flag.jpg" transition="2T39" panzoom="1" URLTarget="0" phototime="2" url="http://" title="http_imgload"/><slide jpegURL="thumbs/thumb_DSC02024-2.jpg" d_URL="photo/DSC02024-2.jpg" transition="35" panzoom="1" URLTarget="0" phototime="2" url="" title="http_imgload"/><slide jpegURL="thumbs/thumb_IMG_8118-1.jpg" d_URL="photo/IMG_8118-1.jpg" transition="49" panzoom="1" URLTarget="0" phototime="2" url="" title="http_imgload"/></album>
+</flash_parameters>

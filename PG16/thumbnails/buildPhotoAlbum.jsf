@@ -1,0 +1,108 @@
+App.progressCountTotal = 13;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/macau10/IMG_8587.JPG');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'IMG_8587.JPG';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8587_JPG.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8587_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8587_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8587_JPG.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8587_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8587_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/macau10/IMG_8605.JPG');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'IMG_8605.JPG';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8605_JPG.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8605_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8605_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8605_JPG.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8605_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8605_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/macau10/IMG_8638.JPG');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'IMG_8638.JPG';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8638_JPG.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8638_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8638_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8638_JPG.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8638_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8638_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/macau10/IMG_8651.JPG');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'IMG_8651.JPG';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8651_JPG.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8651_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8651_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8651_JPG.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8651_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8651_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/macau10/IMG_8656.JPG');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'IMG_8656.JPG';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8656_JPG.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8656_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8656_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8656_JPG.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8656_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8656_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/macau10/IMG_8659.JPG');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'IMG_8659.JPG';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8659_JPG.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8659_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8659_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8659_JPG.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8659_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8659_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/macau10/IMG_8664.JPG');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'IMG_8664.JPG';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8664_JPG.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8664_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8664_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8664_JPG.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8664_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8664_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/macau10/IMG_8688.JPG');
+App.progressCountCurrent = 8;
+App.batchStatusString = 'IMG_8688.JPG';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8688_JPG.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8688_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8688_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8688_JPG.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8688_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8688_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/macau10/IMG_8696.JPG');
+App.progressCountCurrent = 9;
+App.batchStatusString = 'IMG_8696.JPG';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8696_JPG.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8696_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8696_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8696_JPG.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8696_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8696_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/macau10/IMG_8697.JPG');
+App.progressCountCurrent = 10;
+App.batchStatusString = 'IMG_8697.JPG';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8697_JPG.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8697_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8697_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8697_JPG.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8697_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8697_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/macau10/IMG_8701.JPG');
+App.progressCountCurrent = 11;
+App.batchStatusString = 'IMG_8701.JPG';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8701_JPG.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8701_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8701_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8701_JPG.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8701_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8701_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/macau10/IMG_8702.JPG');
+App.progressCountCurrent = 12;
+App.batchStatusString = 'IMG_8702.JPG';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8702_JPG.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8702_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8702_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8702_JPG.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8702_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8702_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/macau10/IMG_8729.JPG');
+App.progressCountCurrent = 13;
+App.batchStatusString = 'IMG_8729.JPG';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8729_JPG.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8729_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG16/images/IMG_8729_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"70", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8729_JPG.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8729_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG16/thumbnails/IMG_8729_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+'done';

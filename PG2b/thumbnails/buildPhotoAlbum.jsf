@@ -1,0 +1,60 @@
+App.progressCountTotal = 7;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/stanley/stanley 064_jpg_jpg.gif');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'stanley 064_jpg_jpg.gif';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG2b/images/stanley 064_jpg_jpg_gif.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG2b/images/stanley 064_jpg_jpg_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG2b/images/stanley 064_jpg_jpg_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"60", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG2b/thumbnails/stanley 064_jpg_jpg_gif.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG2b/thumbnails/stanley 064_jpg_jpg_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG2b/thumbnails/stanley 064_jpg_jpg_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/stanley/stanley 066_jpg_jpg.gif');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'stanley 066_jpg_jpg.gif';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG2b/images/stanley 066_jpg_jpg_gif.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG2b/images/stanley 066_jpg_jpg_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG2b/images/stanley 066_jpg_jpg_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"60", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG2b/thumbnails/stanley 066_jpg_jpg_gif.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG2b/thumbnails/stanley 066_jpg_jpg_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG2b/thumbnails/stanley 066_jpg_jpg_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/stanley/stanley 070_jpg_jpg.gif');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'stanley 070_jpg_jpg.gif';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG2b/images/stanley 070_jpg_jpg_gif.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG2b/images/stanley 070_jpg_jpg_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG2b/images/stanley 070_jpg_jpg_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"60", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG2b/thumbnails/stanley 070_jpg_jpg_gif.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG2b/thumbnails/stanley 070_jpg_jpg_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG2b/thumbnails/stanley 070_jpg_jpg_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/stanley/stanley 071_jpg_jpg.gif');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'stanley 071_jpg_jpg.gif';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG2b/images/stanley 071_jpg_jpg_gif.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG2b/images/stanley 071_jpg_jpg_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG2b/images/stanley 071_jpg_jpg_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"60", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG2b/thumbnails/stanley 071_jpg_jpg_gif.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG2b/thumbnails/stanley 071_jpg_jpg_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG2b/thumbnails/stanley 071_jpg_jpg_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/stanley/stanley 073_jpg_jpg.gif');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'stanley 073_jpg_jpg.gif';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG2b/images/stanley 073_jpg_jpg_gif.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG2b/images/stanley 073_jpg_jpg_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG2b/images/stanley 073_jpg_jpg_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"60", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG2b/thumbnails/stanley 073_jpg_jpg_gif.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG2b/thumbnails/stanley 073_jpg_jpg_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG2b/thumbnails/stanley 073_jpg_jpg_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/stanley/stanley 087_jpg_jpg.gif');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'stanley 087_jpg_jpg.gif';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG2b/images/stanley 087_jpg_jpg_gif.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG2b/images/stanley 087_jpg_jpg_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG2b/images/stanley 087_jpg_jpg_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"60", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG2b/thumbnails/stanley 087_jpg_jpg_gif.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG2b/thumbnails/stanley 087_jpg_jpg_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG2b/thumbnails/stanley 087_jpg_jpg_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/stanley/stanley 097_jpg_jpg.gif');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'stanley 097_jpg_jpg.gif';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG2b/images/stanley 097_jpg_jpg_gif.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG2b/images/stanley 097_jpg_jpg_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG2b/images/stanley 097_jpg_jpg_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"60", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG2b/thumbnails/stanley 097_jpg_jpg_gif.jpg') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG2b/thumbnails/stanley 097_jpg_jpg_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG2b/thumbnails/stanley 097_jpg_jpg_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+'done';

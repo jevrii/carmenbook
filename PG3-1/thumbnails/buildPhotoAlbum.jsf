@@ -1,0 +1,84 @@
+﻿App.progressCountTotal = 10;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/shatin/IMG_7061 - 複製_JPG.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'IMG_7061 - 複製_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/images/IMG_7061 - 複製_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/images/IMG_7061 - 複製_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/images/IMG_7061 - 複製_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/thumbnails/IMG_7061 - 複製_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/thumbnails/IMG_7061 - 複製_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/thumbnails/IMG_7061 - 複製_JPG_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/shatin/IMG_7061_JPG.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'IMG_7061_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/images/IMG_7061_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/images/IMG_7061_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/images/IMG_7061_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/thumbnails/IMG_7061_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/thumbnails/IMG_7061_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/thumbnails/IMG_7061_JPG_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/shatin/IMG_7063_JPG.jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'IMG_7063_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/images/IMG_7063_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/images/IMG_7063_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/images/IMG_7063_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/thumbnails/IMG_7063_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/thumbnails/IMG_7063_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/thumbnails/IMG_7063_JPG_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/shatin/IMG_7067_JPG.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'IMG_7067_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/images/IMG_7067_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/images/IMG_7067_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/images/IMG_7067_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/thumbnails/IMG_7067_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/thumbnails/IMG_7067_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/thumbnails/IMG_7067_JPG_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/shatin/IMG_7073_JPG.jpg');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'IMG_7073_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/images/IMG_7073_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/images/IMG_7073_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/images/IMG_7073_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/thumbnails/IMG_7073_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/thumbnails/IMG_7073_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/thumbnails/IMG_7073_JPG_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/shatin/IMG_7084_JPG.jpg');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'IMG_7084_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/images/IMG_7084_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/images/IMG_7084_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/images/IMG_7084_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/thumbnails/IMG_7084_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/thumbnails/IMG_7084_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/thumbnails/IMG_7084_JPG_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/shatin/IMG_7089_JPG.jpg');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'IMG_7089_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/images/IMG_7089_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/images/IMG_7089_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/images/IMG_7089_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/thumbnails/IMG_7089_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/thumbnails/IMG_7089_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/thumbnails/IMG_7089_JPG_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/shatin/IMG_7092_JPG.jpg');
+App.progressCountCurrent = 8;
+App.batchStatusString = 'IMG_7092_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/images/IMG_7092_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/images/IMG_7092_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/images/IMG_7092_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/thumbnails/IMG_7092_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/thumbnails/IMG_7092_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/thumbnails/IMG_7092_JPG_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/shatin/IMG_7095_JPG.jpg');
+App.progressCountCurrent = 9;
+App.batchStatusString = 'IMG_7095_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/images/IMG_7095_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/images/IMG_7095_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/images/IMG_7095_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/thumbnails/IMG_7095_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/thumbnails/IMG_7095_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/thumbnails/IMG_7095_JPG_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Users/carmen/Desktop/CCweaver FW Photo/shatin/IMG_7096_JPG.jpg');
+App.progressCountCurrent = 10;
+App.batchStatusString = 'IMG_7096_JPG.jpg';
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/images/IMG_7096_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/images/IMG_7096_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/images/IMG_7096_JPG_jpg.gif',({applyScale:false, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:"50", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/thumbnails/IMG_7096_JPG_jpg.gif') || confirm('file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/thumbnails/IMG_7096_JPG_jpg.gif already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Users/carmen/Desktop/CCweaver/PG3-1/thumbnails/IMG_7096_JPG_jpg.gif',({applyScale:true, colorMode:"indexed", exportFormat:"GIF", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:1, name:"GIF WebSnap 256", numEntriesRequested:256, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+'done';
